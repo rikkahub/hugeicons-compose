@@ -1,13 +1,21 @@
 // 将 kebab-case 转换为合法的 Kotlin PascalCase 标识符
-// 如果以数字开头，添加 "Icon" 前缀
+// 移除所有特殊符号，如果以数字开头则添加 "Icon" 前缀
 export function toValidKotlinName(iconName: string): string {
-    const pascalCase = iconName
+    // 移除或替换所有特殊符号
+    // 将所有非字母数字和非连字符的字符替换为连字符，然后规范化
+    const normalized = iconName
+        .replace(/[^a-zA-Z0-9-]/g, '-')  // 将所有特殊符号替换为 '-'
+        .replace(/-+/g, '-')              // 将多个连续的 '-' 合并为一个
+        .replace(/^-+|-+$/g, '');         // 移除开头和结尾的 '-'
+
+    const pascalCase = normalized
         .split('-')
+        .filter(part => part.length > 0)  // 过滤空字符串
         .map(part => part.charAt(0).toUpperCase() + part.slice(1))
         .join('');
 
-    // 检查是否以数字开头
-    if (/^\d/.test(pascalCase)) {
+    // 检查是否以数字开头或为空
+    if (!pascalCase || /^\d/.test(pascalCase)) {
         return 'Icon' + pascalCase;
     }
 
