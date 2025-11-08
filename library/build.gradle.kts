@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.maven.publish)
 }
 
 android {
@@ -46,4 +47,19 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("release") {
+            groupId = "me.rerere.hugeicons"
+            artifactId = "hugeicons"
+            version = "1.0"
+
+            // afterEvaluate 里执行的内容直接放在外层即可
+            afterEvaluate {
+                from(components["release"])
+            }
+        }
+    }
 }
