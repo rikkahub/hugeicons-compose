@@ -1,0 +1,13 @@
+{
+  "name": "gen",
+  "private": true,
+  "scripts": {
+    "gen": "bun run src/main.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
