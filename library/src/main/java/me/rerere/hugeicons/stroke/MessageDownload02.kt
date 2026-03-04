@@ -43,9 +43,9 @@ val HugeIcons.MessageDownload02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(13.5f, 3.03366f)
-        curveTo(12.2812f, 2.97855f, 11.0318f, 2.99113f, 9.8294f, 3.07106f)
-        curveTo(5.64639f, 3.34912f, 2.31441f, 6.72836f, 2.04024f, 10.9707f)
+        moveTo(13.5f, 3.03368f)
+        curveTo(12.2812f, 2.97856f, 11.0318f, 2.99114f, 9.8294f, 3.07107f)
+        curveTo(5.64639f, 3.34913f, 2.31441f, 6.72838f, 2.04024f, 10.9707f)
         curveTo(1.98659f, 11.8009f, 1.98659f, 12.6607f, 2.04024f, 13.4909f)
         curveTo(2.1401f, 15.036f, 2.82343f, 16.4666f, 3.62791f, 17.6746f)
         curveTo(4.09501f, 18.5203f, 3.78674f, 19.5758f, 3.30021f, 20.4978f)
@@ -57,7 +57,7 @@ val HugeIcons.MessageDownload02: ImageVector
         curveTo(8.8044f, 21.2409f, 9.33896f, 21.3579f, 9.8294f, 21.3905f)
         curveTo(11.2536f, 21.4852f, 12.7435f, 21.4854f, 14.1706f, 21.3905f)
         curveTo(18.3536f, 21.1125f, 21.6856f, 17.7332f, 21.9598f, 13.4909f)
-        curveTo(21.9809f, 13.1639f, 21.9937f, 12.8325f, 21.9982f, 12.5f)
+        curveTo(21.9809f, 13.164f, 21.9937f, 12.8325f, 21.9982f, 12.5f)
         }
 
         path(
@@ -67,12 +67,12 @@ val HugeIcons.MessageDownload02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(16f, 7.49998f)
-        curveTo(16.4915f, 8.00568f, 17.7998f, 9.99998f, 18.5f, 9.99998f)
-        moveTo(21f, 7.49999f)
-        curveTo(20.5085f, 8.00568f, 19.2002f, 9.99998f, 18.5f, 9.99998f)
-        moveTo(18.5f, 9.99998f)
-        verticalLineTo(1.99998f)
+        moveTo(16f, 7.5f)
+        curveTo(16.4915f, 8.0057f, 17.7998f, 10f, 18.5f, 10f)
+        moveTo(21f, 7.5f)
+        curveTo(20.5085f, 8.0057f, 19.2002f, 10f, 18.5f, 10f)
+        moveTo(18.5f, 10f)
+        verticalLineTo(2f)
         }
         }.build()
 

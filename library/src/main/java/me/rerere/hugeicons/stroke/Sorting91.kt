@@ -71,9 +71,9 @@ val HugeIcons.Sorting91: ImageVector
         moveTo(16.5001f, 19.999f)
         verticalLineTo(3.99902f)
         moveTo(16.5001f, 19.999f)
-        curveTo(15.7999f, 19.999f, 14.4916f, 18.0047f, 14.0001f, 17.499f)
+        curveTo(15.7998f, 19.999f, 14.4916f, 18.0047f, 14.0001f, 17.499f)
         moveTo(16.5001f, 19.999f)
-        curveTo(17.2003f, 19.999f, 18.5086f, 18.0047f, 19.0001f, 17.499f)
+        curveTo(17.2003f, 19.999f, 18.5085f, 18.0047f, 19.0001f, 17.499f)
         }
         }.build()
 

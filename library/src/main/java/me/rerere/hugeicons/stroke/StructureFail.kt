@@ -64,9 +64,9 @@ val HugeIcons.StructureFail: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(8.5412f, 10.4825f)
+        moveTo(8.54121f, 10.4825f)
         lineTo(5.52337f, 13.4949f)
-        moveTo(8.5412f, 13.4949f)
+        moveTo(8.54121f, 13.4949f)
         lineTo(5.52337f, 10.4825f)
         }
 
@@ -78,16 +78,16 @@ val HugeIcons.StructureFail: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(7.04533f, 17.0314f)
-        curveTo(9.8101f, 17.0314f, 12.0103f, 14.7709f, 12.0103f, 11.9931f)
-        curveTo(12.0103f, 9.21534f, 9.76898f, 6.9635f, 7.0042f, 6.9635f)
+        curveTo(9.81011f, 17.0314f, 12.0103f, 14.7709f, 12.0103f, 11.9931f)
+        curveTo(12.0103f, 9.21534f, 9.76898f, 6.9635f, 7.00421f, 6.9635f)
         moveTo(7.04533f, 17.0314f)
-        curveTo(4.28055f, 17.0314f, 1.99813f, 14.7709f, 1.99813f, 11.9931f)
-        curveTo(1.99813f, 9.21534f, 4.23943f, 6.9635f, 7.0042f, 6.9635f)
+        curveTo(4.28056f, 17.0314f, 1.99814f, 14.7709f, 1.99814f, 11.9931f)
+        curveTo(1.99814f, 9.21534f, 4.23943f, 6.9635f, 7.00421f, 6.9635f)
         moveTo(7.04533f, 17.0314f)
-        curveTo(6.97569f, 19.1612f, 8.53182f, 19.9388f, 9.63988f, 19.9795f)
+        curveTo(6.9757f, 19.1612f, 8.53182f, 19.9388f, 9.63988f, 19.9795f)
         horizontalLineTo(12.0103f)
-        moveTo(7.0042f, 6.9635f)
-        curveTo(6.93385f, 4.80343f, 8.51708f, 4.04384f, 9.63988f, 3.99609f)
+        moveTo(7.00421f, 6.9635f)
+        curveTo(6.93386f, 4.80343f, 8.51708f, 4.04384f, 9.63989f, 3.99609f)
         horizontalLineTo(12.021f)
         }
         }.build()

@@ -37,7 +37,7 @@ val HugeIcons.ArrowShrink01: ImageVector
         moveTo(20.9991f, 21.001f)
         lineTo(13.6102f, 13.6188f)
         moveTo(10.3691f, 10.3763f)
-        lineTo(2.99997f, 2.99902f)
+        lineTo(2.99998f, 2.99902f)
         }
         }.build()
 

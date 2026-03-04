@@ -48,9 +48,9 @@ val HugeIcons.Question: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(15.4922f, 7.5f)
+        moveTo(15.4922f, 7.50003f)
         horizontalLineTo(15.5003f)
-        moveTo(18.4922f, 7.5f)
+        moveTo(18.4922f, 7.50003f)
         horizontalLineTo(18.5003f)
         }
 
@@ -61,16 +61,16 @@ val HugeIcons.Question: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(7.50189f, 21.5001f)
+        moveTo(7.50189f, 21.5f)
         horizontalLineTo(4.71817f)
-        curveTo(4.39488f, 21.5001f, 4.07021f, 21.4546f, 3.77327f, 21.327f)
+        curveTo(4.39488f, 21.5f, 4.07021f, 21.4545f, 3.77327f, 21.3269f)
         curveTo(2.80666f, 20.9117f, 2.31624f, 20.3633f, 2.08769f, 20.0202f)
-        curveTo(1.95764f, 19.8251f, 1.97617f, 19.5764f, 2.11726f, 19.389f)
-        curveTo(3.23716f, 17.9015f, 5.83846f, 17.0031f, 7.50665f, 17.003f)
-        curveTo(9.17484f, 17.0031f, 11.7714f, 17.9015f, 12.8913f, 19.389f)
-        curveTo(13.0324f, 19.5764f, 13.0509f, 19.8251f, 12.9209f, 20.0202f)
-        curveTo(12.6923f, 20.3633f, 12.2019f, 20.9117f, 11.2353f, 21.327f)
-        curveTo(10.9383f, 21.4546f, 10.6137f, 21.5001f, 10.2904f, 21.5001f)
+        curveTo(1.95764f, 19.825f, 1.97617f, 19.5764f, 2.11726f, 19.389f)
+        curveTo(3.23716f, 17.9015f, 5.83846f, 17.003f, 7.50665f, 17.003f)
+        curveTo(9.17484f, 17.003f, 11.7714f, 17.9015f, 12.8913f, 19.389f)
+        curveTo(13.0324f, 19.5764f, 13.0509f, 19.825f, 12.9209f, 20.0202f)
+        curveTo(12.6923f, 20.3633f, 12.2019f, 20.9117f, 11.2353f, 21.3269f)
+        curveTo(10.9383f, 21.4545f, 10.6137f, 21.5f, 10.2904f, 21.5f)
         horizontalLineTo(7.50189f)
         }
 
@@ -84,8 +84,8 @@ val HugeIcons.Question: ImageVector
         moveTo(10.2854f, 11.7889f)
         curveTo(10.2854f, 13.3202f, 9.04129f, 14.5616f, 7.50664f, 14.5616f)
         curveTo(5.97199f, 14.5616f, 4.72791f, 13.3202f, 4.72791f, 11.7889f)
-        curveTo(4.72791f, 10.2576f, 5.97199f, 9.01624f, 7.50664f, 9.01624f)
-        curveTo(9.04129f, 9.01624f, 10.2854f, 10.2576f, 10.2854f, 11.7889f)
+        curveTo(4.72791f, 10.2576f, 5.97199f, 9.01627f, 7.50664f, 9.01627f)
+        curveTo(9.04129f, 9.01627f, 10.2854f, 10.2576f, 10.2854f, 11.7889f)
         }
         }.build()
 

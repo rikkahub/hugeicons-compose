@@ -29,8 +29,8 @@ val HugeIcons.Clock05: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(12f, 22f)
-        curveTo(6.47715f, 22f, 2.00004f, 17.5228f, 2.00004f, 12f)
-        curveTo(2.00004f, 6.47715f, 6.47719f, 2f, 12f, 2f)
+        curveTo(6.47714f, 22f, 2.00003f, 17.5228f, 2.00003f, 12f)
+        curveTo(2.00003f, 6.47715f, 6.47718f, 2f, 12f, 2f)
         curveTo(16.4777f, 2f, 20.2257f, 4.94289f, 21.5f, 9f)
         horizontalLineTo(19f)
         }

@@ -54,8 +54,8 @@ val HugeIcons.Upload03: ImageVector
         ) {
         moveTo(2.49995f, 14.5f)
         verticalLineTo(10.5f)
-        curveTo(2.49995f, 6.72876f, 2.49995f, 4.84315f, 3.67152f, 3.67157f)
-        curveTo(4.8431f, 2.5f, 6.72871f, 2.5f, 10.5f, 2.5f)
+        curveTo(2.49995f, 6.72876f, 2.49995f, 4.84315f, 3.67153f, 3.67157f)
+        curveTo(4.8431f, 2.5f, 6.72872f, 2.5f, 10.5f, 2.5f)
         horizontalLineTo(13.5f)
         curveTo(17.2712f, 2.5f, 19.1568f, 2.5f, 20.3284f, 3.67157f)
         curveTo(21.5f, 4.84315f, 21.5f, 6.72876f, 21.5f, 10.5f)

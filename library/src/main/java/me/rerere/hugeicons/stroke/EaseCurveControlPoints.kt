@@ -40,6 +40,20 @@ val HugeIcons.EaseCurveControlPoints: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
+        moveTo(21f, 20f)
+        curveTo(21f, 21.1046f, 20.1046f, 22f, 19f, 22f)
+        curveTo(17.8954f, 22f, 17f, 21.1046f, 17f, 20f)
+        curveTo(17f, 18.8954f, 17.8954f, 18f, 19f, 18f)
+        curveTo(20.1046f, 18f, 21f, 18.8954f, 21f, 20f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF000000)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round
+        ) {
         moveTo(10f, 20f)
         horizontalLineTo(12f)
         moveTo(15f, 20f)
@@ -49,6 +63,20 @@ val HugeIcons.EaseCurveControlPoints: ImageVector
         curveTo(20.1046f, 22f, 21f, 21.1046f, 21f, 20f)
         curveTo(21f, 18.8954f, 20.1046f, 18f, 19f, 18f)
         curveTo(17.8954f, 18f, 17f, 18.8954f, 17f, 20f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF000000)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round
+        ) {
+        moveTo(7f, 4f)
+        curveTo(7f, 5.10457f, 6.10457f, 6f, 5f, 6f)
+        curveTo(3.89543f, 6f, 3f, 5.10457f, 3f, 4f)
+        curveTo(3f, 2.89543f, 3.89543f, 2f, 5f, 2f)
+        curveTo(6.10457f, 2f, 7f, 2.89543f, 7f, 4f)
         }
 
         path(

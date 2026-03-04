@@ -45,7 +45,7 @@ val HugeIcons.FireSecurity: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(15.5354f, 16.2023f)
-        curveTo(15.5354f, 15.5078f, 15.4277f, 14.5459f, 15.8359f, 13.9207f)
+        curveTo(15.5354f, 15.5078f, 15.4277f, 14.5459f, 15.836f, 13.9207f)
         curveTo(16.7377f, 12.5397f, 18.6013f, 12.7799f, 19.2625f, 14.1008f)
         curveTo(19.5631f, 14.7612f, 19.4516f, 15.538f, 19.4669f, 16.1931f)
         moveTo(15.5354f, 16.2023f)

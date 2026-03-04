@@ -43,11 +43,11 @@ val HugeIcons.CircleArrowMoveDownLeft: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(10.3738f, 12.5313f)
-        curveTo(9.8655f, 13.1616f, 8.83272f, 13.9422f, 9.01656f, 14.3129f)
-        moveTo(9.01656f, 14.3129f)
-        curveTo(8.91415f, 14.6908f, 9.91409f, 15.4379f, 10.376f, 16.0078f)
-        moveTo(9.01656f, 14.3129f)
-        curveTo(11.0993f, 14.3582f, 12.3737f, 14.1062f, 13.6038f, 12.8814f)
+        curveTo(9.86553f, 13.1616f, 8.83275f, 13.9422f, 9.01659f, 14.3129f)
+        moveTo(9.01659f, 14.3129f)
+        curveTo(8.91418f, 14.6908f, 9.91412f, 15.4379f, 10.3761f, 16.0078f)
+        moveTo(9.01659f, 14.3129f)
+        curveTo(11.0994f, 14.3582f, 12.3737f, 14.1062f, 13.6038f, 12.8814f)
         curveTo(14.8849f, 11.6057f, 15.0957f, 10.2118f, 14.992f, 8.00317f)
         }
         }.build()

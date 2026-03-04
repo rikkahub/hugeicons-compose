@@ -50,7 +50,7 @@ val HugeIcons.SquareArrowDown02: ImageVector
         verticalLineTo(8f)
         moveTo(15.5f, 12.5002f)
         curveTo(15.5f, 12.5002f, 12.9223f, 16.0002f, 12f, 16.0002f)
-        curveTo(11.0777f, 16.0002f, 8.50003f, 12.5002f, 8.50003f, 12.5002f)
+        curveTo(11.0777f, 16.0002f, 8.5f, 12.5002f, 8.5f, 12.5002f)
         }
         }.build()
 

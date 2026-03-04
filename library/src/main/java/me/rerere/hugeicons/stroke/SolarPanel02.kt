@@ -52,9 +52,9 @@ val HugeIcons.SolarPanel02: ImageVector
         ) {
         moveTo(22f, 6.00005f)
         lineTo(18.9577f, 15.2129f)
-        curveTo(18.5142f, 16.5561f, 18.2924f, 17.2277f, 17.7312f, 17.6139f)
+        curveTo(18.5142f, 16.5561f, 18.2924f, 17.2277f, 17.7313f, 17.6139f)
         curveTo(17.1701f, 18f, 16.416f, 18f, 14.9077f, 18f)
-        horizontalLineTo(3.99998f)
+        horizontalLineTo(4f)
         }
 
         path(

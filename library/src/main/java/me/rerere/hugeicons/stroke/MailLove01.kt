@@ -28,10 +28,10 @@ val HugeIcons.MailLove01: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2f, 5.5f)
-        lineTo(8.91302f, 9.42462f)
-        curveTo(11.4387f, 10.8585f, 12.5613f, 10.8585f, 15.087f, 9.42462f)
-        lineTo(22f, 5.5f)
+        moveTo(2f, 5.50003f)
+        lineTo(8.91302f, 9.42465f)
+        curveTo(11.4387f, 10.8585f, 12.5613f, 10.8585f, 15.087f, 9.42465f)
+        lineTo(22f, 5.50003f)
         }
 
         path(

@@ -63,13 +63,11 @@ val HugeIcons.AiScan: ImageVector
         horizontalLineTo(13f)
         curveTo(14.8856f, 8.5f, 15.8284f, 8.5f, 16.4142f, 9.08579f)
         curveTo(17f, 9.67157f, 17f, 10.6144f, 17f, 12.5f)
-        verticalLineTo(12.5f)
         curveTo(17f, 14.3856f, 17f, 15.3284f, 16.4142f, 15.9142f)
         curveTo(15.8284f, 16.5f, 14.8856f, 16.5f, 13f, 16.5f)
         horizontalLineTo(11f)
         curveTo(9.11438f, 16.5f, 8.17157f, 16.5f, 7.58579f, 15.9142f)
         curveTo(7f, 15.3284f, 7f, 14.3856f, 7f, 12.5f)
-        verticalLineTo(12.5f)
         curveTo(7f, 10.6144f, 7f, 9.67157f, 7.58579f, 9.08579f)
         curveTo(8.17157f, 8.5f, 9.11438f, 8.5f, 11f, 8.5f)
         }

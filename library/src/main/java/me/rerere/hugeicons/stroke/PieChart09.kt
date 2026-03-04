@@ -50,10 +50,10 @@ val HugeIcons.PieChart09: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(14f, 20.4185f)
-        curveTo(13.0736f, 20.7935f, 12.0609f, 21f, 11f, 21f)
-        curveTo(6.58172f, 21f, 3f, 17.4183f, 3f, 13f)
-        curveTo(3f, 9.56306f, 5.16736f, 6.63232f, 8.20988f, 5.5f)
+        moveTo(14f, 20.4184f)
+        curveTo(13.0736f, 20.7934f, 12.0609f, 20.9999f, 11f, 20.9999f)
+        curveTo(6.58172f, 20.9999f, 3f, 17.4182f, 3f, 12.9999f)
+        curveTo(3f, 9.56293f, 5.16736f, 6.6322f, 8.20988f, 5.49988f)
         }
         }.build()
 

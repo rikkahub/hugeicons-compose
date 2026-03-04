@@ -16,9 +16,9 @@ val HugeIcons.Lantern: ImageVector
         }
         _lantern = ImageVector.Builder(
             name = "Lantern",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,11 +28,11 @@ val HugeIcons.Lantern: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(6.5f, 7.5f)
-        curveTo(7.21663f, 5.40983f, 9.22856f, 4f, 11.4947f, 4f)
-        horizontalLineTo(13.5053f)
-        curveTo(15.7714f, 4f, 17.7834f, 5.40983f, 18.5f, 7.5f)
-        horizontalLineTo(6.5f)
+        moveTo(6f, 7.5f)
+        curveTo(6.71663f, 5.40983f, 8.72856f, 4f, 10.9947f, 4f)
+        horizontalLineTo(13.0053f)
+        curveTo(15.2714f, 4f, 17.2834f, 5.40983f, 18f, 7.5f)
+        horizontalLineTo(6f)
         }
 
         path(
@@ -42,11 +42,11 @@ val HugeIcons.Lantern: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(18.5f, 18.5f)
-        curveTo(17.7834f, 20.5902f, 15.7714f, 22f, 13.5053f, 22f)
-        lineTo(11.4947f, 22f)
-        curveTo(9.22855f, 22f, 7.21663f, 20.5902f, 6.5f, 18.5f)
-        lineTo(18.5f, 18.5f)
+        moveTo(18f, 18.5f)
+        curveTo(17.2834f, 20.5902f, 15.2714f, 22f, 13.0053f, 22f)
+        lineTo(10.9947f, 22f)
+        curveTo(8.72855f, 22f, 6.71663f, 20.5902f, 6f, 18.5f)
+        lineTo(18f, 18.5f)
         }
 
         path(
@@ -56,12 +56,12 @@ val HugeIcons.Lantern: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(6.5f, 7.5f)
-        horizontalLineTo(5.5f)
-        lineTo(6.5f, 8.5f)
-        moveTo(18.5f, 7.5f)
-        horizontalLineTo(19.5f)
-        lineTo(18.5f, 8.5f)
+        moveTo(6f, 7.5f)
+        horizontalLineTo(5f)
+        lineTo(6f, 8.5f)
+        moveTo(18f, 7.5f)
+        horizontalLineTo(19f)
+        lineTo(18f, 8.5f)
         }
 
         path(
@@ -71,12 +71,12 @@ val HugeIcons.Lantern: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(18.5f, 18.5f)
-        lineTo(19.5f, 18.5f)
-        lineTo(18.5f, 17.5f)
-        moveTo(6.5f, 18.5f)
-        lineTo(5.5f, 18.5f)
-        lineTo(6.5f, 17.5f)
+        moveTo(18f, 18.5f)
+        lineTo(19f, 18.5f)
+        lineTo(18f, 17.5f)
+        moveTo(6f, 18.5f)
+        lineTo(5f, 18.5f)
+        lineTo(6f, 17.5f)
         }
 
         path(
@@ -86,10 +86,10 @@ val HugeIcons.Lantern: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(21.5f, 11f)
-        lineTo(22.5f, 10.5f)
-        moveTo(21.5f, 15f)
-        lineTo(22.5f, 15.5f)
+        moveTo(21f, 11f)
+        lineTo(22f, 10.5f)
+        moveTo(21f, 15f)
+        lineTo(22f, 15.5f)
         }
 
         path(
@@ -99,10 +99,10 @@ val HugeIcons.Lantern: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3.5f, 11f)
-        lineTo(2.5f, 10.5f)
-        moveTo(3.5f, 15f)
-        lineTo(2.5f, 15.5f)
+        moveTo(3f, 11f)
+        lineTo(2f, 10.5f)
+        moveTo(3f, 15f)
+        lineTo(2f, 15.5f)
         }
 
         path(
@@ -112,7 +112,7 @@ val HugeIcons.Lantern: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(12.5f, 12f)
+        moveTo(12f, 12f)
         verticalLineTo(14f)
         }
 
@@ -123,7 +123,7 @@ val HugeIcons.Lantern: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(12.5f, 2f)
+        moveTo(12f, 2f)
         verticalLineTo(4f)
         }
         }.build()

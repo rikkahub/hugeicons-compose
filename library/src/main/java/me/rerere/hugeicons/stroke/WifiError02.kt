@@ -54,10 +54,10 @@ val HugeIcons.WifiError02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2f, 11f)
-        curveTo(3.92227f, 9.3768f, 5.94206f, 8.1353f, 8f, 7.50015f)
-        moveTo(22f, 10.9999f)
-        curveTo(20.0778f, 9.37675f, 18.0579f, 8.13529f, 16f, 7.50015f)
+        moveTo(2f, 11.0001f)
+        curveTo(3.92227f, 9.37683f, 5.94206f, 8.13533f, 8f, 7.50018f)
+        moveTo(22f, 11f)
+        curveTo(20.0778f, 9.37678f, 18.0579f, 8.13532f, 16f, 7.50018f)
         }
 
         path(

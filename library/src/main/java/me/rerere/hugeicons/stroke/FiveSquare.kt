@@ -16,9 +16,9 @@ val HugeIcons.FiveSquare: ImageVector
         }
         _fiveSquare = ImageVector.Builder(
             name = "FiveSquare",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,15 +28,15 @@ val HugeIcons.FiveSquare: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2.99707f, 12f)
-        curveTo(2.99707f, 7.52166f, 2.99707f, 5.28249f, 4.38831f, 3.89124f)
-        curveTo(5.77956f, 2.5f, 8.01873f, 2.5f, 12.4971f, 2.5f)
-        curveTo(16.9754f, 2.5f, 19.2146f, 2.5f, 20.6058f, 3.89124f)
-        curveTo(21.9971f, 5.28249f, 21.9971f, 7.52166f, 21.9971f, 12f)
-        curveTo(21.9971f, 16.4783f, 21.9971f, 18.7175f, 20.6058f, 20.1088f)
-        curveTo(19.2146f, 21.5f, 16.9754f, 21.5f, 12.4971f, 21.5f)
-        curveTo(8.01873f, 21.5f, 5.77956f, 21.5f, 4.38831f, 20.1088f)
-        curveTo(2.99707f, 18.7175f, 2.99707f, 16.4783f, 2.99707f, 12f)
+        moveTo(2.5f, 12f)
+        curveTo(2.5f, 7.52166f, 2.5f, 5.28249f, 3.89124f, 3.89124f)
+        curveTo(5.28249f, 2.5f, 7.52166f, 2.5f, 12f, 2.5f)
+        curveTo(16.4783f, 2.5f, 18.7175f, 2.5f, 20.1088f, 3.89124f)
+        curveTo(21.5f, 5.28249f, 21.5f, 7.52166f, 21.5f, 12f)
+        curveTo(21.5f, 16.4783f, 21.5f, 18.7175f, 20.1088f, 20.1088f)
+        curveTo(18.7175f, 21.5f, 16.4783f, 21.5f, 12f, 21.5f)
+        curveTo(7.52166f, 21.5f, 5.28249f, 21.5f, 3.89124f, 20.1088f)
+        curveTo(2.5f, 18.7175f, 2.5f, 16.4783f, 2.5f, 12f)
         }
 
         path(
@@ -46,13 +46,13 @@ val HugeIcons.FiveSquare: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(9.49707f, 15f)
-        curveTo(9.49707f, 15f, 9.99707f, 17f, 12.4971f, 17f)
-        curveTo(14.1539f, 17f, 15.4971f, 15.7949f, 15.4971f, 14f)
-        curveTo(15.4971f, 12.2051f, 14.1539f, 11f, 12.4971f, 11f)
-        curveTo(10.8402f, 11f, 9.49707f, 12f, 9.49707f, 12f)
-        lineTo(10.4971f, 7f)
-        horizontalLineTo(15.4971f)
+        moveTo(9f, 15f)
+        curveTo(9f, 15f, 9.5f, 17f, 12f, 17f)
+        curveTo(13.6569f, 17f, 15f, 15.7949f, 15f, 14f)
+        curveTo(15f, 12.2051f, 13.6569f, 11f, 12f, 11f)
+        curveTo(10.3431f, 11f, 9f, 12f, 9f, 12f)
+        lineTo(10f, 7f)
+        horizontalLineTo(15f)
         }
         }.build()
 

@@ -98,7 +98,7 @@ val HugeIcons.ShoppingBasketAdd03: ImageVector
         ) {
         moveTo(14f, 20f)
         horizontalLineTo(9.5828f)
-        curveTo(7.15529f, 20f, 5.94153f, 20f, 5.1023f, 19.2891f)
+        curveTo(7.15529f, 20f, 5.94153f, 20f, 5.10229f, 19.2891f)
         curveTo(4.26306f, 18.5781f, 4.06352f, 17.3809f, 3.66444f, 14.9864f)
         lineTo(2.50004f, 8f)
         horizontalLineTo(21.5f)

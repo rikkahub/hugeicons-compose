@@ -28,11 +28,11 @@ val HugeIcons.React: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(8.00001f, 12f)
-        curveTo(8.00001f, 6.47715f, 9.79087f, 2f, 12f, 2f)
-        curveTo(14.2091f, 2f, 16f, 6.47715f, 16f, 12f)
-        curveTo(16f, 17.5228f, 14.2091f, 22f, 12f, 22f)
-        curveTo(9.79087f, 22f, 8.00001f, 17.5228f, 8.00001f, 12f)
+        moveTo(8.00002f, 12f)
+        curveTo(8.00002f, 6.47715f, 9.79088f, 2f, 12f, 2f)
+        curveTo(14.2092f, 2f, 16f, 6.47715f, 16f, 12f)
+        curveTo(16f, 17.5228f, 14.2092f, 22f, 12f, 22f)
+        curveTo(9.79088f, 22f, 8.00002f, 17.5228f, 8.00002f, 12f)
         }
 
         path(

@@ -60,9 +60,9 @@ val HugeIcons.Centralized: ImageVector
         moveTo(6.26313f, 17.7366f)
         lineTo(2.49976f, 21.5f)
         moveTo(6.26313f, 17.7366f)
-        curveTo(5.82353f, 17.297f, 4.02124f, 17.5833f, 2.99976f, 17.6966f)
+        curveTo(5.82352f, 17.297f, 4.02124f, 17.5833f, 2.99976f, 17.6966f)
         moveTo(6.26313f, 17.7366f)
-        curveTo(6.70273f, 18.1762f, 6.41642f, 19.9785f, 6.30312f, 21f)
+        curveTo(6.70273f, 18.1762f, 6.41641f, 19.9785f, 6.30312f, 21f)
         }
 
         path(
@@ -90,9 +90,9 @@ val HugeIcons.Centralized: ImageVector
         moveTo(6.26313f, 6.26337f)
         lineTo(2.49976f, 2.5f)
         moveTo(6.26313f, 6.26337f)
-        curveTo(6.70273f, 5.82377f, 6.41642f, 4.02148f, 6.30312f, 3f)
+        curveTo(6.70273f, 5.82377f, 6.41641f, 4.02148f, 6.30312f, 3f)
         moveTo(6.26313f, 6.26337f)
-        curveTo(5.82353f, 6.70297f, 4.02124f, 6.41666f, 2.99976f, 6.30336f)
+        curveTo(5.82352f, 6.70297f, 4.02124f, 6.41666f, 2.99976f, 6.30336f)
         }
         }.build()
 

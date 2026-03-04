@@ -43,9 +43,9 @@ val HugeIcons.SwipeDown06: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(6.51286f, 13.5149f)
+        moveTo(6.51287f, 13.5149f)
         verticalLineTo(3.48587f)
-        curveTo(6.51286f, 2.66424f, 7.1797f, 1.99817f, 8.00229f, 1.99817f)
+        curveTo(6.51287f, 2.66424f, 7.17971f, 1.99817f, 8.00229f, 1.99817f)
         curveTo(8.82488f, 1.99817f, 9.49172f, 2.66423f, 9.49172f, 3.48587f)
         verticalLineTo(8.68796f)
         moveTo(9.49172f, 8.68796f)
@@ -65,10 +65,10 @@ val HugeIcons.SwipeDown06: ImageVector
         verticalLineTo(15.3331f)
         curveTo(18.4983f, 17.0591f, 18.2102f, 18.3107f, 17.184f, 19.3401f)
         curveTo(16.236f, 20.4719f, 16.459f, 21.1055f, 16.4354f, 22.0018f)
-        moveTo(6.51286f, 8.99062f)
-        curveTo(5.19393f, 10.1845f, 3.69695f, 11.816f, 3.50583f, 12.2024f)
-        curveTo(2.61651f, 13.5545f, 2.9328f, 14.6154f, 4.19662f, 16.4176f)
-        curveTo(5.13716f, 17.7588f, 6.39863f, 19.2535f, 6.46471f, 19.3283f)
+        moveTo(6.51287f, 8.99062f)
+        curveTo(5.19394f, 10.1845f, 3.69696f, 11.816f, 3.50583f, 12.2024f)
+        curveTo(2.61652f, 13.5545f, 2.9328f, 14.6154f, 4.19663f, 16.4176f)
+        curveTo(5.13716f, 17.7588f, 6.39863f, 19.2535f, 6.46472f, 19.3283f)
         curveTo(7.13732f, 20.0897f, 7.0055f, 20.6959f, 7.0055f, 21.9908f)
         }
         }.build()

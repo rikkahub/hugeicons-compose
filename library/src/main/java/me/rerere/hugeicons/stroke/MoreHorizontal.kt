@@ -28,8 +28,11 @@ val HugeIcons.MoreHorizontal: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(11.9959f, 12f)
-        horizontalLineTo(12.0049f)
+        moveTo(12.0045f, 11.5f)
+        curveTo(12.5568f, 11.5f, 13.0045f, 11.9477f, 13.0045f, 12.5f)
+        curveTo(13.0045f, 13.0523f, 12.5568f, 13.5f, 12.0045f, 13.5f)
+        curveTo(11.4522f, 13.5f, 11.0045f, 13.0523f, 11.0045f, 12.5f)
+        curveTo(11.0045f, 11.9477f, 11.4522f, 11.5f, 12.0045f, 11.5f)
         }
 
         path(
@@ -39,8 +42,11 @@ val HugeIcons.MoreHorizontal: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(17.9998f, 12f)
-        horizontalLineTo(18.0088f)
+        moveTo(18.0045f, 11.5f)
+        curveTo(18.5568f, 11.5f, 19.0045f, 11.9477f, 19.0045f, 12.5f)
+        curveTo(19.0045f, 13.0523f, 18.5568f, 13.5f, 18.0045f, 13.5f)
+        curveTo(17.4522f, 13.5f, 17.0045f, 13.0523f, 17.0045f, 12.5f)
+        curveTo(17.0045f, 11.9477f, 17.4522f, 11.5f, 18.0045f, 11.5f)
         }
 
         path(
@@ -50,8 +56,11 @@ val HugeIcons.MoreHorizontal: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(5.99981f, 12f)
-        horizontalLineTo(6.00879f)
+        moveTo(6.00449f, 11.5f)
+        curveTo(6.55677f, 11.5f, 7.00449f, 11.9477f, 7.00449f, 12.5f)
+        curveTo(7.00449f, 13.0523f, 6.55677f, 13.5f, 6.00449f, 13.5f)
+        curveTo(5.4522f, 13.5f, 5.00449f, 13.0523f, 5.00449f, 12.5f)
+        curveTo(5.00449f, 11.9477f, 5.4522f, 11.5f, 6.00449f, 11.5f)
         }
         }.build()
 

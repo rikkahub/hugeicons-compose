@@ -16,9 +16,9 @@ val HugeIcons.Kaaba02: ImageVector
         }
         _kaaba02 = ImageVector.Builder(
             name = "Kaaba02",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,13 +28,13 @@ val HugeIcons.Kaaba02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(21.5f, 22f)
+        moveTo(21f, 22f)
         verticalLineTo(5f)
-        curveTo(21.5f, 3.58579f, 21.5f, 2.87868f, 21.0607f, 2.43934f)
-        curveTo(20.6213f, 2f, 19.9142f, 2f, 18.5f, 2f)
-        horizontalLineTo(6.5f)
-        curveTo(5.08579f, 2f, 4.37868f, 2f, 3.93934f, 2.43934f)
-        curveTo(3.5f, 2.87868f, 3.5f, 3.58579f, 3.5f, 5f)
+        curveTo(21f, 3.58579f, 21f, 2.87868f, 20.5607f, 2.43934f)
+        curveTo(20.1213f, 2f, 19.4142f, 2f, 18f, 2f)
+        horizontalLineTo(6f)
+        curveTo(4.58579f, 2f, 3.87868f, 2f, 3.43934f, 2.43934f)
+        curveTo(3f, 2.87868f, 3f, 3.58579f, 3f, 5f)
         verticalLineTo(22f)
         }
 
@@ -45,14 +45,14 @@ val HugeIcons.Kaaba02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(7.5f, 17f)
-        curveTo(7.5f, 16.0572f, 7.5f, 15.5858f, 7.79289f, 15.2929f)
-        curveTo(8.08579f, 15f, 8.55719f, 15f, 9.5f, 15f)
-        horizontalLineTo(10.5f)
-        curveTo(11.4428f, 15f, 11.9142f, 15f, 12.2071f, 15.2929f)
-        curveTo(12.5f, 15.5858f, 12.5f, 16.0572f, 12.5f, 17f)
+        moveTo(7f, 17f)
+        curveTo(7f, 16.0572f, 7f, 15.5858f, 7.29289f, 15.2929f)
+        curveTo(7.58579f, 15f, 8.05719f, 15f, 9f, 15f)
+        horizontalLineTo(10f)
+        curveTo(10.9428f, 15f, 11.4142f, 15f, 11.7071f, 15.2929f)
+        curveTo(12f, 15.5858f, 12f, 16.0572f, 12f, 17f)
         verticalLineTo(22f)
-        horizontalLineTo(7.5f)
+        horizontalLineTo(7f)
         verticalLineTo(17f)
         }
 
@@ -63,8 +63,8 @@ val HugeIcons.Kaaba02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2.5f, 22f)
-        horizontalLineTo(22.5f)
+        moveTo(2f, 22f)
+        horizontalLineTo(22f)
         }
 
         path(
@@ -74,47 +74,47 @@ val HugeIcons.Kaaba02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3.5f, 6f)
-        horizontalLineTo(21.5f)
-        }
-
-        path(
-            fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
-        ) {
-        moveTo(3.5f, 19f)
-        horizontalLineTo(7.5f)
-        }
-
-        path(
-            fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
-        ) {
-        moveTo(12.5f, 19f)
-        lineTo(21.5f, 19f)
-        }
-
-        path(
-            fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
-        ) {
-        moveTo(4f, 9f)
-        horizontalLineTo(6f)
-        moveTo(9f, 9f)
-        horizontalLineTo(11f)
-        moveTo(14f, 9f)
-        horizontalLineTo(16f)
-        moveTo(19f, 9f)
+        moveTo(3f, 6f)
         horizontalLineTo(21f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF000000)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round
+        ) {
+        moveTo(3f, 19f)
+        horizontalLineTo(7f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF000000)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round
+        ) {
+        moveTo(12f, 19f)
+        lineTo(21f, 19f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF000000)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round
+        ) {
+        moveTo(3.5f, 9f)
+        horizontalLineTo(5.5f)
+        moveTo(8.5f, 9f)
+        horizontalLineTo(10.5f)
+        moveTo(13.5f, 9f)
+        horizontalLineTo(15.5f)
+        moveTo(18.5f, 9f)
+        horizontalLineTo(20.5f)
         }
         }.build()
 

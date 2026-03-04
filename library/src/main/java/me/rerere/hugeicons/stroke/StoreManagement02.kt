@@ -28,11 +28,11 @@ val HugeIcons.StoreManagement02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3.00046f, 10.9995f)
+        moveTo(3.00043f, 10.9995f)
         verticalLineTo(14.9932f)
-        curveTo(3.00046f, 17.8251f, 3.00046f, 19.241f, 3.87914f, 20.1208f)
-        curveTo(4.75782f, 21.0005f, 6.17203f, 21.0005f, 9.00046f, 21.0005f)
-        horizontalLineTo(11.0005f)
+        curveTo(3.00043f, 17.8251f, 3.00043f, 19.241f, 3.87911f, 20.1208f)
+        curveTo(4.75779f, 21.0005f, 6.172f, 21.0005f, 9.00043f, 21.0005f)
+        horizontalLineTo(11.0004f)
         }
 
         path(

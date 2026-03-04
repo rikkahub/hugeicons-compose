@@ -28,8 +28,8 @@ val HugeIcons.ShoppingBag03: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(7.00003f, 6f)
-        curveTo(7.00003f, 7.65685f, 8.34318f, 9f, 10f, 9f)
+        moveTo(7f, 6f)
+        curveTo(7f, 7.65685f, 8.34315f, 9f, 10f, 9f)
         curveTo(11.6569f, 9f, 13f, 7.65685f, 13f, 6f)
         }
 
@@ -40,19 +40,19 @@ val HugeIcons.ShoppingBag03: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(11.1118f, 3f)
-        horizontalLineTo(8.88827f)
-        curveTo(6.21723f, 3f, 4.88171f, 3f, 4.01971f, 3.82064f)
-        curveTo(3.15772f, 4.64128f, 3.08364f, 5.98325f, 2.93548f, 8.66719f)
-        lineTo(2.60427f, 14.6672f)
-        curveTo(2.44028f, 17.6379f, 2.35829f, 19.1233f, 3.24033f, 20.0616f)
-        curveTo(4.12238f, 21f, 5.60061f, 21f, 8.55706f, 21f)
+        moveTo(11.1117f, 3f)
+        horizontalLineTo(8.88824f)
+        curveTo(6.2172f, 3f, 4.88168f, 3f, 4.01968f, 3.82064f)
+        curveTo(3.15769f, 4.64128f, 3.08361f, 5.98325f, 2.93545f, 8.66719f)
+        lineTo(2.60424f, 14.6672f)
+        curveTo(2.44025f, 17.6379f, 2.35826f, 19.1233f, 3.2403f, 20.0616f)
+        curveTo(4.12235f, 21f, 5.60058f, 21f, 8.55703f, 21f)
         horizontalLineTo(11.443f)
-        curveTo(14.3995f, 21f, 15.8777f, 21f, 16.7597f, 20.0616f)
-        curveTo(17.6418f, 19.1233f, 17.5598f, 17.6379f, 17.3958f, 14.6672f)
+        curveTo(14.3994f, 21f, 15.8777f, 21f, 16.7597f, 20.0616f)
+        curveTo(17.6417f, 19.1233f, 17.5597f, 17.6379f, 17.3957f, 14.6672f)
         lineTo(17.0645f, 8.66717f)
-        curveTo(16.9164f, 5.98324f, 16.8423f, 4.64127f, 15.9803f, 3.82064f)
-        curveTo(15.1183f, 3f, 13.7828f, 3f, 11.1118f, 3f)
+        curveTo(16.9163f, 5.98324f, 16.8423f, 4.64127f, 15.9803f, 3.82064f)
+        curveTo(15.1183f, 3f, 13.7828f, 3f, 11.1117f, 3f)
         }
 
         path(
@@ -62,14 +62,14 @@ val HugeIcons.ShoppingBag03: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(12.8883f, 3f)
-        horizontalLineTo(15.1118f)
-        curveTo(17.7828f, 3f, 19.1183f, 3f, 19.9803f, 3.82064f)
-        curveTo(20.8423f, 4.64127f, 20.9164f, 5.98324f, 21.0645f, 8.66717f)
-        lineTo(21.3958f, 14.6672f)
-        curveTo(21.5598f, 17.6379f, 21.6418f, 19.1233f, 20.7597f, 20.0616f)
-        curveTo(19.8777f, 21f, 18.3995f, 21f, 15.443f, 21f)
-        horizontalLineTo(12.5571f)
+        moveTo(12.8882f, 3f)
+        horizontalLineTo(15.1117f)
+        curveTo(17.7827f, 3f, 19.1182f, 3f, 19.9802f, 3.82064f)
+        curveTo(20.8422f, 4.64127f, 20.9163f, 5.98324f, 21.0645f, 8.66717f)
+        lineTo(21.3957f, 14.6672f)
+        curveTo(21.5597f, 17.6379f, 21.6417f, 19.1233f, 20.7597f, 20.0616f)
+        curveTo(19.8776f, 21f, 18.3994f, 21f, 15.4429f, 21f)
+        horizontalLineTo(12.557f)
         }
         }.build()
 

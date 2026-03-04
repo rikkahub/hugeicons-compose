@@ -28,16 +28,25 @@ val HugeIcons.Archive04: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(21.5709f, 11.9272f)
-        curveTo(21.7848f, 12.4619f, 21.8917f, 12.7293f, 21.9459f, 13.0104f)
-        curveTo(22f, 13.2915f, 22f, 13.5795f, 22f, 14.1555f)
+        moveTo(13.9378f, 3f)
+        horizontalLineTo(10.0622f)
+        curveTo(8.09477f, 3f, 7.11106f, 3f, 6.34921f, 3.5158f)
+        curveTo(5.58736f, 4.0316f, 5.22202f, 4.94495f, 4.49134f, 6.77166f)
+        lineTo(2.42914f, 11.9272f)
+        curveTo(2.21522f, 12.4619f, 2.10826f, 12.7293f, 2.05413f, 13.0104f)
+        curveTo(2f, 13.2915f, 2f, 13.5795f, 2f, 14.1555f)
         verticalLineTo(15f)
-        curveTo(22f, 17.8284f, 22f, 19.2426f, 21.1213f, 20.1213f)
-        curveTo(20.2426f, 21f, 18.8284f, 21f, 16f, 21f)
-        horizontalLineTo(8f)
-        curveTo(5.17157f, 21f, 3.75736f, 21f, 2.87868f, 20.1213f)
-        curveTo(2f, 19.2426f, 2f, 17.8284f, 2f, 15f)
+        curveTo(2f, 17.8284f, 2f, 19.2426f, 2.87868f, 20.1213f)
+        curveTo(3.75736f, 21f, 5.17157f, 21f, 8f, 21f)
+        horizontalLineTo(16f)
+        curveTo(18.8284f, 21f, 20.2426f, 21f, 21.1213f, 20.1213f)
+        curveTo(22f, 19.2426f, 22f, 17.8284f, 22f, 15f)
         verticalLineTo(14.1555f)
+        curveTo(22f, 13.5795f, 22f, 13.2915f, 21.9459f, 13.0104f)
+        curveTo(21.8917f, 12.7294f, 21.7848f, 12.4619f, 21.5709f, 11.9271f)
+        lineTo(19.5087f, 6.77166f)
+        curveTo(18.778f, 4.94495f, 18.4126f, 4.0316f, 17.6508f, 3.5158f)
+        curveTo(16.8889f, 3f, 15.9052f, 3f, 13.9378f, 3f)
         }
 
         path(

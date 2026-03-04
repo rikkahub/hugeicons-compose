@@ -75,12 +75,12 @@ val HugeIcons.BitcoinUp02: ImageVector
         curveTo(14.0802f, 15.4998f, 14.4999f, 15.9476f, 14.4999f, 16.4998f)
         verticalLineTo(17.1665f)
         curveTo(14.4999f, 17.7188f, 14.0802f, 18.1665f, 13.5624f, 18.1665f)
-        horizontalLineTo(9.49993f)
+        horizontalLineTo(9.49992f)
         moveTo(13.5624f, 15.4998f)
         curveTo(14.0802f, 15.4998f, 14.4999f, 15.0521f, 14.4999f, 14.4998f)
         verticalLineTo(13.8332f)
         curveTo(14.4999f, 13.2809f, 14.0802f, 12.8332f, 13.5624f, 12.8332f)
-        horizontalLineTo(9.49993f)
+        horizontalLineTo(9.49992f)
         }
         }.build()
 

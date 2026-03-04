@@ -52,9 +52,9 @@ val HugeIcons.ChartDown: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(17.5f, 8f)
-        lineTo(19.5f, 10.5f)
-        lineTo(17f, 12.5f)
+        moveTo(17.5f, 7.99988f)
+        lineTo(19.5f, 10.4999f)
+        lineTo(17f, 12.4999f)
         }
 
         path(

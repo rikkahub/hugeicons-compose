@@ -16,9 +16,9 @@ val HugeIcons.Unavailable: ImageVector
         }
         _unavailable = ImageVector.Builder(
             name = "Unavailable",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(

@@ -43,16 +43,16 @@ val HugeIcons.PoundReceive: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(12.662f, 8.52496f)
-        curveTo(12.662f, 6.40432f, 10.9917f, 3.91079f, 8.25f, 4.00226f)
-        curveTo(7.52476f, 4.02646f, 6.72455f, 4.25839f, 5.86047f, 4.767f)
-        curveTo(4.4716f, 5.68473f, 2.67966f, 8.73584f, 4.84287f, 11.9369f)
+        moveTo(12.662f, 8.52502f)
+        curveTo(12.662f, 6.40438f, 10.9917f, 3.91085f, 8.25f, 4.00232f)
+        curveTo(7.52476f, 4.02652f, 6.72455f, 4.25845f, 5.86047f, 4.76706f)
+        curveTo(4.4716f, 5.68479f, 2.67966f, 8.7359f, 4.84287f, 11.9369f)
         curveTo(5.89496f, 13.4937f, 6.86653f, 13.525f, 9.75f, 13.525f)
         horizontalLineTo(2.25f)
-        moveTo(6.703f, 14.0072f)
-        curveTo(6.16468f, 15.5014f, 4.53524f, 18.8987f, 2.32404f, 19.9869f)
+        moveTo(6.703f, 14.0073f)
+        curveTo(6.16468f, 15.5015f, 4.53524f, 18.8988f, 2.32404f, 19.987f)
         horizontalLineTo(11.2098f)
-        curveTo(11.6185f, 19.9869f, 12.8337f, 20.1991f, 14.229f, 18.924f)
+        curveTo(11.6185f, 19.987f, 12.8337f, 20.1991f, 14.229f, 18.9241f)
         }
         }.build()
 

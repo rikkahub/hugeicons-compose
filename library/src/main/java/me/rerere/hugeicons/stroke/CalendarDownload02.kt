@@ -28,10 +28,10 @@ val HugeIcons.CalendarDownload02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(18f, 2f)
-        verticalLineTo(4f)
-        moveTo(6f, 2f)
-        verticalLineTo(4f)
+        moveTo(16f, 2f)
+        verticalLineTo(6f)
+        moveTo(8f, 2f)
+        verticalLineTo(6f)
         }
 
         path(
@@ -41,7 +41,29 @@ val HugeIcons.CalendarDownload02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3f, 8f)
+        moveTo(13f, 4f)
+        horizontalLineTo(11f)
+        curveTo(7.22876f, 4f, 5.34315f, 4f, 4.17157f, 5.17157f)
+        curveTo(3f, 6.34315f, 3f, 8.22876f, 3f, 12f)
+        verticalLineTo(14f)
+        curveTo(3f, 17.7712f, 3f, 19.6569f, 4.17157f, 20.8284f)
+        curveTo(5.34315f, 22f, 7.22876f, 22f, 11f, 22f)
+        horizontalLineTo(13f)
+        curveTo(16.7712f, 22f, 18.6569f, 22f, 19.8284f, 20.8284f)
+        curveTo(21f, 19.6569f, 21f, 17.7712f, 21f, 14f)
+        verticalLineTo(12f)
+        curveTo(21f, 8.22876f, 21f, 6.34315f, 19.8284f, 5.17157f)
+        curveTo(18.6569f, 4f, 16.7712f, 4f, 13f, 4f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF000000)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round
+        ) {
+        moveTo(3f, 10f)
         horizontalLineTo(21f)
         }
 
@@ -52,34 +74,11 @@ val HugeIcons.CalendarDownload02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2.5f, 12.2432f)
-        curveTo(2.5f, 7.88594f, 2.5f, 5.70728f, 3.75212f, 4.35364f)
-        curveTo(5.00424f, 3f, 7.01949f, 3f, 11.05f, 3f)
-        horizontalLineTo(12.95f)
-        curveTo(16.9805f, 3f, 18.9958f, 3f, 20.2479f, 4.35364f)
-        curveTo(21.5f, 5.70728f, 21.5f, 7.88594f, 21.5f, 12.2432f)
-        verticalLineTo(12.7568f)
-        curveTo(21.5f, 17.1141f, 21.5f, 19.2927f, 20.2479f, 20.6464f)
-        curveTo(18.9958f, 22f, 16.9805f, 22f, 12.95f, 22f)
-        horizontalLineTo(11.05f)
-        curveTo(7.01949f, 22f, 5.00424f, 22f, 3.75212f, 20.6464f)
-        curveTo(2.5f, 19.2927f, 2.5f, 17.1141f, 2.5f, 12.7568f)
-        verticalLineTo(12.2432f)
-        }
-
-        path(
-            fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
-        ) {
-        moveTo(9.5f, 15.5f)
-        curveTo(9.99153f, 16.0057f, 11.2998f, 18f, 12f, 18f)
-        moveTo(14.5f, 15.5f)
-        curveTo(14.0085f, 16.0057f, 12.7002f, 18f, 12f, 18f)
-        moveTo(12f, 18f)
-        verticalLineTo(12f)
+        moveTo(9.5f, 16.4984f)
+        curveTo(9.99153f, 17.0041f, 11.2998f, 18.9984f, 12f, 18.9984f)
+        curveTo(12.7002f, 18.9984f, 14.0085f, 17.0041f, 14.5f, 16.4984f)
+        moveTo(12f, 18.4984f)
+        verticalLineTo(12.9984f)
         }
         }.build()
 

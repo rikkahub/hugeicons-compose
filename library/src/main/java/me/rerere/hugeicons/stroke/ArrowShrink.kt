@@ -57,8 +57,8 @@ val HugeIcons.ArrowShrink: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(6.00746f, 9.76133f)
-        curveTo(6.75719f, 9.7709f, 9.24073f, 10.2832f, 9.76644f, 9.75585f)
-        curveTo(10.2921f, 9.22853f, 9.77264f, 6.74581f, 9.76096f, 5.99592f)
+        curveTo(6.7572f, 9.7709f, 9.24073f, 10.2832f, 9.76644f, 9.75585f)
+        curveTo(10.2921f, 9.22853f, 9.77265f, 6.74581f, 9.76097f, 5.99592f)
         moveTo(9.37696f, 9.36743f)
         lineTo(3.00176f, 3.00244f)
         }

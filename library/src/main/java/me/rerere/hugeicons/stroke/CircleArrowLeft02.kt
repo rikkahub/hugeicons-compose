@@ -45,8 +45,8 @@ val HugeIcons.CircleArrowLeft02: ImageVector
         moveTo(9.00009f, 12.0002f)
         lineTo(16.0001f, 12.0002f)
         moveTo(11.4999f, 8.50012f)
-        curveTo(11.4999f, 8.50012f, 7.99996f, 11.0778f, 7.99995f, 12.0001f)
-        curveTo(7.99994f, 12.9225f, 11.5f, 15.5001f, 11.5f, 15.5001f)
+        curveTo(11.4999f, 8.50012f, 7.99995f, 11.0778f, 7.99995f, 12.0001f)
+        curveTo(7.99994f, 12.9225f, 11.4999f, 15.5001f, 11.4999f, 15.5001f)
         }
         }.build()
 

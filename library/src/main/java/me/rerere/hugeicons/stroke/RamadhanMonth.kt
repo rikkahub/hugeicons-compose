@@ -16,9 +16,9 @@ val HugeIcons.RamadhanMonth: ImageVector
         }
         _ramadhanMonth = ImageVector.Builder(
             name = "RamadhanMonth",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,9 +28,9 @@ val HugeIcons.RamadhanMonth: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(18.5f, 2f)
+        moveTo(18f, 2f)
         verticalLineTo(4f)
-        moveTo(6.5f, 2f)
+        moveTo(6f, 2f)
         verticalLineTo(4f)
         }
 
@@ -41,18 +41,18 @@ val HugeIcons.RamadhanMonth: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3f, 12.2432f)
-        curveTo(3f, 7.88594f, 3f, 5.70728f, 4.25212f, 4.35364f)
-        curveTo(5.50424f, 3f, 7.51949f, 3f, 11.55f, 3f)
-        horizontalLineTo(13.45f)
-        curveTo(17.4805f, 3f, 19.4958f, 3f, 20.7479f, 4.35364f)
-        curveTo(22f, 5.70728f, 22f, 7.88594f, 22f, 12.2432f)
+        moveTo(2.5f, 12.2432f)
+        curveTo(2.5f, 7.88594f, 2.5f, 5.70728f, 3.75212f, 4.35364f)
+        curveTo(5.00424f, 3f, 7.01949f, 3f, 11.05f, 3f)
+        horizontalLineTo(12.95f)
+        curveTo(16.9805f, 3f, 18.9958f, 3f, 20.2479f, 4.35364f)
+        curveTo(21.5f, 5.70728f, 21.5f, 7.88594f, 21.5f, 12.2432f)
         verticalLineTo(12.7568f)
-        curveTo(22f, 17.1141f, 22f, 19.2927f, 20.7479f, 20.6464f)
-        curveTo(19.4958f, 22f, 17.4805f, 22f, 13.45f, 22f)
-        horizontalLineTo(11.55f)
-        curveTo(7.51949f, 22f, 5.50424f, 22f, 4.25212f, 20.6464f)
-        curveTo(3f, 19.2927f, 3f, 17.1141f, 3f, 12.7568f)
+        curveTo(21.5f, 17.1141f, 21.5f, 19.2927f, 20.2479f, 20.6464f)
+        curveTo(18.9958f, 22f, 16.9805f, 22f, 12.95f, 22f)
+        horizontalLineTo(11.05f)
+        curveTo(7.01949f, 22f, 5.00424f, 22f, 3.75212f, 20.6464f)
+        curveTo(2.5f, 19.2927f, 2.5f, 17.1141f, 2.5f, 12.7568f)
         verticalLineTo(12.2432f)
         }
 
@@ -63,8 +63,8 @@ val HugeIcons.RamadhanMonth: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3.5f, 8f)
-        horizontalLineTo(21.5f)
+        moveTo(3f, 8f)
+        horizontalLineTo(21f)
         }
 
         path(
@@ -74,10 +74,10 @@ val HugeIcons.RamadhanMonth: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(15.5f, 16.4343f)
-        curveTo(14.9347f, 17.3725f, 13.906f, 18f, 12.7308f, 18f)
-        curveTo(10.9465f, 18f, 9.5f, 16.5535f, 9.5f, 14.7692f)
-        curveTo(9.5f, 13.594f, 10.1275f, 12.5653f, 11.0657f, 12f)
+        moveTo(15f, 16.4343f)
+        curveTo(14.4347f, 17.3725f, 13.406f, 18f, 12.2308f, 18f)
+        curveTo(10.4465f, 18f, 9f, 16.5535f, 9f, 14.7692f)
+        curveTo(9f, 13.594f, 9.6275f, 12.5653f, 10.5657f, 12f)
         }
 
         path(
@@ -87,8 +87,8 @@ val HugeIcons.RamadhanMonth: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(14.5f, 13f)
-        horizontalLineTo(14.509f)
+        moveTo(14f, 13f)
+        horizontalLineTo(14.009f)
         }
         }.build()
 

@@ -63,7 +63,7 @@ val HugeIcons.ArrowExpandDiagonal01: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(14.9981f, 9.00737f)
+        moveTo(14.998f, 9.00737f)
         lineTo(20.3838f, 3.62158f)
         }
 

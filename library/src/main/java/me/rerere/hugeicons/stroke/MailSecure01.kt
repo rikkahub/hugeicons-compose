@@ -28,10 +28,10 @@ val HugeIcons.MailSecure01: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2f, 5f)
-        lineTo(8.91302f, 8.92462f)
-        curveTo(11.4387f, 10.3585f, 12.5613f, 10.3585f, 15.087f, 8.92462f)
-        lineTo(22f, 5f)
+        moveTo(2f, 5.00003f)
+        lineTo(8.91302f, 8.92465f)
+        curveTo(11.4387f, 10.3585f, 12.5613f, 10.3585f, 15.087f, 8.92465f)
+        lineTo(22f, 5.00003f)
         }
 
         path(

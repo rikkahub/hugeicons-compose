@@ -17,9 +17,9 @@ val HugeIcons.Monocle: ImageVector
         _monocle = ImageVector.Builder(
             name = "Monocle",
             defaultWidth = 24.dp,
-            defaultHeight = 25.dp,
+            defaultHeight = 24.dp,
             viewportWidth = 24f,
-            viewportHeight = 25f
+            viewportHeight = 24f
         ).apply {
         path(
             fill = null,
@@ -28,21 +28,21 @@ val HugeIcons.Monocle: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(22f, 17.4961f)
-        verticalLineTo(19.4961f)
-        curveTo(22f, 19.8467f, 21.9398f, 20.1833f, 21.8293f, 20.4961f)
-        moveTo(20f, 22.3254f)
-        curveTo(19.6872f, 22.4359f, 19.3506f, 22.4961f, 19f, 22.4961f)
-        curveTo(18.6494f, 22.4961f, 18.3128f, 22.4359f, 18f, 22.3254f)
-        moveTo(16f, 17.4961f)
-        verticalLineTo(19.4961f)
-        curveTo(16f, 19.8467f, 16.0602f, 20.1833f, 16.1707f, 20.4961f)
-        moveTo(22f, 8.49609f)
-        verticalLineTo(5.49609f)
-        moveTo(22f, 14.4961f)
-        verticalLineTo(11.4961f)
-        moveTo(16f, 14.4961f)
-        verticalLineTo(10.4961f)
+        moveTo(22f, 17f)
+        verticalLineTo(19f)
+        curveTo(22f, 19.3506f, 21.9398f, 19.6872f, 21.8293f, 20f)
+        moveTo(20f, 21.8293f)
+        curveTo(19.6872f, 21.9398f, 19.3506f, 22f, 19f, 22f)
+        curveTo(18.6494f, 22f, 18.3128f, 21.9398f, 18f, 21.8293f)
+        moveTo(16f, 17f)
+        verticalLineTo(19f)
+        curveTo(16f, 19.3506f, 16.0602f, 19.6872f, 16.1707f, 20f)
+        moveTo(22f, 8f)
+        verticalLineTo(5f)
+        moveTo(22f, 14f)
+        verticalLineTo(11f)
+        moveTo(16f, 14f)
+        verticalLineTo(10f)
         }
         }.build()
 

@@ -30,9 +30,9 @@ val HugeIcons.ScreenLockRotation: ImageVector
         ) {
         moveTo(12.0339f, 3.74684f)
         curveTo(11.735f, 3.60141f, 11.4456f, 3.52354f, 11.1423f, 3.51237f)
-        curveTo(10.0481f, 3.47207f, 9.20024f, 4.31523f, 7.50449f, 6.00155f)
-        curveTo(5.80873f, 7.68786f, 4.96085f, 8.53102f, 5.00138f, 9.61906f)
-        curveTo(5.0419f, 10.7071f, 5.955f, 11.6151f, 7.7812f, 13.4311f)
+        curveTo(10.0481f, 3.47207f, 9.20023f, 4.31523f, 7.50448f, 6.00155f)
+        curveTo(5.80872f, 7.68786f, 4.96084f, 8.53102f, 5.00137f, 9.61906f)
+        curveTo(5.04189f, 10.7071f, 5.95499f, 11.6151f, 7.78119f, 13.4311f)
         lineTo(11.1017f, 16.7332f)
         curveTo(12.9279f, 18.5492f, 13.841f, 19.4573f, 14.9352f, 19.4975f)
         curveTo(16.0293f, 19.5378f, 16.8772f, 18.6947f, 18.5729f, 17.0084f)
@@ -46,8 +46,8 @@ val HugeIcons.ScreenLockRotation: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2.99999f, 12.5042f)
-        curveTo(3.1182f, 15.3761f, 4.97783f, 20.9955f, 11.3699f, 21.4774f)
+        moveTo(2.99998f, 12.5042f)
+        curveTo(3.11819f, 15.3761f, 4.97782f, 20.9955f, 11.3699f, 21.4774f)
         curveTo(11.7462f, 21.5058f, 11.9344f, 21.5199f, 11.9883f, 21.406f)
         curveTo(12.0423f, 21.292f, 11.9063f, 21.1598f, 11.6344f, 20.8955f)
         lineTo(10.4137f, 19.7092f)
@@ -61,9 +61,9 @@ val HugeIcons.ScreenLockRotation: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(15.7365f, 5.67839f)
-        lineTo(15.7365f, 4.28742f)
-        curveTo(15.7365f, 4.08196f, 15.7451f, 3.87395f, 15.8187f, 3.68209f)
-        curveTo(16.0148f, 3.17138f, 16.5341f, 2.50232f, 17.4796f, 2.50232f)
+        lineTo(15.7364f, 4.28742f)
+        curveTo(15.7364f, 4.08196f, 15.745f, 3.87395f, 15.8187f, 3.68209f)
+        curveTo(16.0147f, 3.17138f, 16.5341f, 2.50232f, 17.4796f, 2.50232f)
         curveTo(18.4251f, 2.50232f, 18.9648f, 3.17138f, 19.1609f, 3.68209f)
         curveTo(19.2345f, 3.87395f, 19.2431f, 4.08196f, 19.2431f, 4.28742f)
         lineTo(19.2431f, 5.67839f)

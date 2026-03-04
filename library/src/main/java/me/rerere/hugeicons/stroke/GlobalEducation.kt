@@ -28,22 +28,20 @@ val HugeIcons.GlobalEducation: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(4.49843f, 5.00004f)
-        curveTo(3.19503f, 4.97812f, 2.56968f, 5.23496f, 2.22294f, 6.14258f)
-        curveTo(2.01241f, 6.69367f, 2f, 7.29677f, 2f, 7.88676f)
-        verticalLineTo(18f)
-        curveTo(2.10783f, 18.6348f, 2.28792f, 19.0559f, 2.74232f, 19.4001f)
-        curveTo(3.48302f, 19.9611f, 4.46716f, 20.0378f, 5.38129f, 20.2033f)
-        curveTo(7.3857f, 20.5663f, 9.12918f, 21.1811f, 11.9937f, 22f)
-        moveTo(19.489f, 5.00004f)
-        curveTo(20.0658f, 4.95075f, 20.4998f, 4.97733f, 20.8427f, 5.13087f)
-        curveTo(22.2148f, 5.74518f, 21.9874f, 7.76209f, 21.9874f, 9.26623f)
-        verticalLineTo(17f)
-        curveTo(21.9944f, 17.5973f, 21.9559f, 18.0619f, 21.8719f, 18.4323f)
-        curveTo(21.5518f, 19.8431f, 19.7432f, 20.0199f, 18.3213f, 20.2822f)
-        curveTo(16.5435f, 20.6101f, 14.6465f, 21.1794f, 11.9937f, 22f)
-        moveTo(11.9937f, 22f)
-        verticalLineTo(15f)
+        moveTo(12f, 13f)
+        curveTo(14.7614f, 13f, 17f, 10.7614f, 17f, 8f)
+        curveTo(17f, 5.23858f, 14.7614f, 3f, 12f, 3f)
+        moveTo(12f, 13f)
+        curveTo(9.23858f, 13f, 7f, 10.7614f, 7f, 8f)
+        curveTo(7f, 5.23858f, 9.23858f, 3f, 12f, 3f)
+        moveTo(12f, 13f)
+        curveTo(13.1046f, 13f, 14f, 10.7614f, 14f, 8f)
+        curveTo(14f, 5.23858f, 13.1046f, 3f, 12f, 3f)
+        moveTo(12f, 13f)
+        curveTo(10.8954f, 13f, 10f, 10.7614f, 10f, 8f)
+        curveTo(10f, 5.23858f, 10.8954f, 3f, 12f, 3f)
+        moveTo(7.46012f, 8f)
+        horizontalLineTo(16.5766f)
         }
 
         path(
@@ -53,18 +51,37 @@ val HugeIcons.GlobalEducation: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(11.9929f, 12f)
-        curveTo(14.7526f, 12f, 16.9898f, 9.76142f, 16.9898f, 7f)
-        curveTo(16.9898f, 4.23858f, 14.7526f, 2f, 11.9929f, 2f)
-        moveTo(11.9929f, 12f)
-        curveTo(9.23326f, 12f, 6.99609f, 9.76142f, 6.99609f, 7f)
-        curveTo(6.99609f, 4.23858f, 9.23326f, 2f, 11.9929f, 2f)
-        moveTo(11.9929f, 12f)
-        curveTo(13.0969f, 12f, 13.9917f, 9.76142f, 13.9917f, 7f)
-        curveTo(13.9917f, 4.23858f, 13.0969f, 2f, 11.9929f, 2f)
-        moveTo(11.9929f, 12f)
-        curveTo(10.889f, 12f, 9.99421f, 9.76142f, 9.99421f, 7f)
-        curveTo(9.99421f, 4.23858f, 10.889f, 2f, 11.9929f, 2f)
+        moveTo(12f, 15.25f)
+        verticalLineTo(21f)
+        curveTo(13.8315f, 19.3871f, 16.2062f, 18.4966f, 18.6667f, 18.5f)
+        curveTo(20.2287f, 18.5f, 21.0097f, 18.5f, 21.3547f, 18.2792f)
+        curveTo(21.5619f, 18.1466f, 21.6465f, 18.0619f, 21.7791f, 17.8547f)
+        curveTo(22f, 17.5097f, 22f, 16.8941f, 22f, 15.6629f)
+        verticalLineTo(6.40322f)
+        curveTo(22f, 4.97543f, 22f, 4.26154f, 21.4513f, 3.68286f)
+        curveTo(20.9025f, 3.10418f, 20.3408f, 3.07432f, 19.2173f, 3.0146f)
+        curveTo(19.035f, 3.00491f, 18.8514f, 3.00001f, 18.6667f, 3.00001f)
+        curveTo(18.2177f, 2.99938f, 17.7715f, 3.02853f, 17.331f, 3.0864f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF000000)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round
+        ) {
+        moveTo(6.66901f, 3.0864f)
+        curveTo(6.22849f, 3.02853f, 5.78234f, 2.99938f, 5.33333f, 3.00001f)
+        curveTo(5.14858f, 3.00001f, 4.965f, 3.00491f, 4.78272f, 3.0146f)
+        curveTo(3.65923f, 3.07432f, 3.09748f, 3.10418f, 2.54874f, 3.68286f)
+        curveTo(2f, 4.26154f, 2f, 4.97543f, 2f, 6.40322f)
+        verticalLineTo(15.6629f)
+        curveTo(2f, 16.8941f, 2f, 17.5097f, 2.22086f, 17.8547f)
+        curveTo(2.35346f, 18.0619f, 2.4381f, 18.1466f, 2.64526f, 18.2792f)
+        curveTo(2.99031f, 18.5f, 3.77133f, 18.5f, 5.33333f, 18.5f)
+        curveTo(7.79379f, 18.4966f, 10.1685f, 19.3871f, 12f, 21f)
+        verticalLineTo(15.25f)
         }
         }.build()
 

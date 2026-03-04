@@ -28,19 +28,19 @@ val HugeIcons.SmartPhoneLandscape02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2.00015f, 10.5f)
-        lineTo(2.00015f, 13.5f)
-        curveTo(2.00015f, 15.857f, 2.00015f, 17.0355f, 2.73239f, 17.7678f)
-        curveTo(3.46462f, 18.5f, 4.64313f, 18.5f, 7.00015f, 18.5f)
+        moveTo(2.00018f, 10.5f)
+        lineTo(2.00018f, 13.5f)
+        curveTo(2.00018f, 15.857f, 2.00018f, 17.0355f, 2.73242f, 17.7678f)
+        curveTo(3.46465f, 18.5f, 4.64316f, 18.5f, 7.00018f, 18.5f)
         horizontalLineTo(17.0002f)
-        curveTo(19.3572f, 18.5f, 20.5357f, 18.5f, 21.2679f, 17.7678f)
+        curveTo(19.3572f, 18.5f, 20.5357f, 18.5f, 21.268f, 17.7678f)
         curveTo(22.0002f, 17.0355f, 22.0002f, 15.857f, 22.0002f, 13.5f)
         verticalLineTo(10.5f)
-        curveTo(22.0002f, 8.14298f, 22.0002f, 6.96447f, 21.2679f, 6.23223f)
+        curveTo(22.0002f, 8.14298f, 22.0002f, 6.96447f, 21.268f, 6.23223f)
         curveTo(20.5357f, 5.5f, 19.3572f, 5.5f, 17.0002f, 5.5f)
-        lineTo(7.00015f, 5.5f)
-        curveTo(4.64313f, 5.5f, 3.46462f, 5.5f, 2.73239f, 6.23223f)
-        curveTo(2.00015f, 6.96447f, 2.00015f, 8.14298f, 2.00015f, 10.5f)
+        lineTo(7.00018f, 5.5f)
+        curveTo(4.64316f, 5.5f, 3.46465f, 5.5f, 2.73242f, 6.23223f)
+        curveTo(2.00018f, 6.96447f, 2.00018f, 8.14298f, 2.00018f, 10.5f)
         }
 
         path(
@@ -50,11 +50,11 @@ val HugeIcons.SmartPhoneLandscape02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(1.99991f, 9.5f)
-        lineTo(1.99991f, 13.5f)
-        lineTo(2.99991f, 13f)
-        lineTo(2.99991f, 10f)
-        lineTo(1.99991f, 9.5f)
+        moveTo(1.99994f, 9.5f)
+        lineTo(1.99994f, 13.5f)
+        lineTo(2.99994f, 13f)
+        lineTo(2.99994f, 10f)
+        lineTo(1.99994f, 9.5f)
         }
         }.build()
 

@@ -17,9 +17,9 @@ val HugeIcons.ImageFlipVertical: ImageVector
         _imageFlipVertical = ImageVector.Builder(
             name = "ImageFlipVertical",
             defaultWidth = 24.dp,
-            defaultHeight = 25.dp,
+            defaultHeight = 24.dp,
             viewportWidth = 24f,
-            viewportHeight = 25f
+            viewportHeight = 24f
         ).apply {
         path(
             fill = null,
@@ -28,16 +28,16 @@ val HugeIcons.ImageFlipVertical: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(13.4572f, 5.90692f)
-        lineTo(9.5343f, 3.83293f)
-        curveTo(7.52036f, 2.76817f, 6.51339f, 2.23579f, 5.75669f, 2.62971f)
-        curveTo(5f, 3.02362f, 5f, 4.08019f, 5f, 6.19334f)
-        verticalLineTo(8.26734f)
-        curveTo(5f, 9.55553f, 5f, 10.1996f, 5.44155f, 10.5998f)
-        curveTo(5.8831f, 11f, 6.59376f, 11f, 8.01508f, 11f)
+        moveTo(13.4572f, 5.40692f)
+        lineTo(9.5343f, 3.33293f)
+        curveTo(7.52036f, 2.26817f, 6.51339f, 1.73579f, 5.75669f, 2.12971f)
+        curveTo(5f, 2.52362f, 5f, 3.58019f, 5f, 5.69334f)
+        verticalLineTo(7.76734f)
+        curveTo(5f, 9.05553f, 5f, 9.69962f, 5.44155f, 10.0998f)
+        curveTo(5.8831f, 10.5f, 6.59376f, 10.5f, 8.01508f, 10.5f)
         horizontalLineTo(11.9379f)
-        curveTo(16.4249f, 11f, 18.6683f, 11f, 18.9695f, 9.99025f)
-        curveTo(19.2707f, 8.98051f, 17.3329f, 7.95598f, 13.4572f, 5.90692f)
+        curveTo(16.4249f, 10.5f, 18.6683f, 10.5f, 18.9695f, 9.49025f)
+        curveTo(19.2707f, 8.48051f, 17.3329f, 7.45598f, 13.4572f, 5.40692f)
         }
 
         path(
@@ -47,16 +47,16 @@ val HugeIcons.ImageFlipVertical: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(13.4572f, 19.0931f)
-        lineTo(9.5343f, 21.1671f)
-        curveTo(7.52036f, 22.2318f, 6.51339f, 22.7642f, 5.75669f, 22.3703f)
-        curveTo(5f, 21.9764f, 5f, 20.9198f, 5f, 18.8067f)
-        verticalLineTo(16.7327f)
-        curveTo(5f, 15.4445f, 5f, 14.8004f, 5.44155f, 14.4002f)
-        curveTo(5.8831f, 14f, 6.59376f, 14f, 8.01508f, 14f)
+        moveTo(13.4572f, 18.5931f)
+        lineTo(9.5343f, 20.6671f)
+        curveTo(7.52036f, 21.7318f, 6.51339f, 22.2642f, 5.75669f, 21.8703f)
+        curveTo(5f, 21.4764f, 5f, 20.4198f, 5f, 18.3067f)
+        verticalLineTo(16.2327f)
+        curveTo(5f, 14.9445f, 5f, 14.3004f, 5.44155f, 13.9002f)
+        curveTo(5.8831f, 13.5f, 6.59376f, 13.5f, 8.01508f, 13.5f)
         horizontalLineTo(11.9379f)
-        curveTo(16.4249f, 14f, 18.6683f, 14f, 18.9695f, 15.0097f)
-        curveTo(19.2707f, 16.0195f, 17.3329f, 17.044f, 13.4572f, 19.0931f)
+        curveTo(16.4249f, 13.5f, 18.6683f, 13.5f, 18.9695f, 14.5097f)
+        curveTo(19.2707f, 15.5195f, 17.3329f, 16.544f, 13.4572f, 18.5931f)
         }
         }.build()
 

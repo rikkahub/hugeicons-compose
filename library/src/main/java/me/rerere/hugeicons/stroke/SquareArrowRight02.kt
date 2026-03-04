@@ -28,21 +28,6 @@ val HugeIcons.SquareArrowRight02: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(16f, 12f)
-        lineTo(8f, 12f)
-        moveTo(16f, 12f)
-        curveTo(16f, 11.2998f, 14.0057f, 9.99153f, 13.5f, 9.5f)
-        moveTo(16f, 12f)
-        curveTo(16f, 12.7002f, 14.0057f, 14.0085f, 13.5f, 14.5f)
-        }
-
-        path(
-            fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
-        ) {
         moveTo(2.5f, 12f)
         curveTo(2.5f, 7.52166f, 2.5f, 5.28249f, 3.89124f, 3.89124f)
         curveTo(5.28249f, 2.5f, 7.52166f, 2.5f, 12f, 2.5f)
@@ -52,6 +37,20 @@ val HugeIcons.SquareArrowRight02: ImageVector
         curveTo(18.7175f, 21.5f, 16.4783f, 21.5f, 12f, 21.5f)
         curveTo(7.52166f, 21.5f, 5.28249f, 21.5f, 3.89124f, 20.1088f)
         curveTo(2.5f, 18.7175f, 2.5f, 16.4783f, 2.5f, 12f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF000000)),
+            strokeLineWidth = 2f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round
+        ) {
+        moveTo(15f, 12.0001f)
+        lineTo(7.99994f, 12.0001f)
+        moveTo(12.5001f, 8.50006f)
+        curveTo(12.5001f, 8.50006f, 16.0001f, 11.0778f, 16.0001f, 12.0001f)
+        curveTo(16.0001f, 12.9224f, 12.5001f, 15.5001f, 12.5001f, 15.5001f)
         }
         }.build()
 

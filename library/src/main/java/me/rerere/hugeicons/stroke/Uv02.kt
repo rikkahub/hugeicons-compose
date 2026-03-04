@@ -99,7 +99,6 @@ val HugeIcons.Uv02: ImageVector
         verticalLineTo(19f)
         curveTo(6.5f, 19.9428f, 6.5f, 20.4142f, 6.79289f, 20.7071f)
         curveTo(7.08579f, 21f, 7.55719f, 21f, 8.5f, 21f)
-        verticalLineTo(21f)
         curveTo(9.44281f, 21f, 9.91421f, 21f, 10.2071f, 20.7071f)
         curveTo(10.5f, 20.4142f, 10.5f, 19.9428f, 10.5f, 19f)
         verticalLineTo(16f)

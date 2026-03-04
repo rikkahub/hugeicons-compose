@@ -61,7 +61,7 @@ val HugeIcons.Background: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2.69806f, 15.8021f)
+        moveTo(2.69803f, 15.8021f)
         lineTo(15.8058f, 2.69434f)
         }
 
@@ -73,7 +73,7 @@ val HugeIcons.Background: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(21.3058f, 8.19434f)
-        lineTo(8.19806f, 21.3021f)
+        lineTo(8.19803f, 21.3021f)
         }
 
         path(

@@ -33,7 +33,7 @@ val HugeIcons.Lamp05: ImageVector
         curveTo(15.3713f, 18.5704f, 15.723f, 19.7991f, 15.3413f, 20.9591f)
         curveTo(15.1382f, 21.5763f, 14.5055f, 22f, 13.7871f, 22f)
         horizontalLineTo(10.2249f)
-        curveTo(9.52128f, 22f, 8.8984f, 21.5925f, 8.68442f, 20.9921f)
+        curveTo(9.52128f, 22f, 8.89841f, 21.5925f, 8.68443f, 20.9921f)
         curveTo(8.26498f, 19.8152f, 8.61274f, 18.555f, 9.21506f, 17.4437f)
         curveTo(9.76605f, 16.427f, 9.99549f, 14.8804f, 9.04318f, 14f)
         }
@@ -45,7 +45,7 @@ val HugeIcons.Lamp05: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(8.50019f, 14f)
+        moveTo(8.5002f, 14f)
         horizontalLineTo(15.5002f)
         }
 
@@ -89,7 +89,7 @@ val HugeIcons.Lamp05: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(9.00019f, 19f)
+        moveTo(9.0002f, 19f)
         horizontalLineTo(15.0002f)
         }
         }.build()

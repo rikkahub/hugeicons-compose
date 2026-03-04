@@ -43,8 +43,8 @@ val HugeIcons.Sent: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(11.5f, 12.5f)
-        lineTo(15f, 9f)
+        moveTo(11.4999f, 12.5f)
+        lineTo(14.9999f, 9f)
         }
         }.build()
 

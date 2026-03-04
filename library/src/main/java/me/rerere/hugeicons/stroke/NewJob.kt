@@ -28,15 +28,15 @@ val HugeIcons.NewJob: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(11.0065f, 21.0001f)
+        moveTo(11.0065f, 21f)
         horizontalLineTo(9.60546f)
-        curveTo(6.02021f, 21.0001f, 4.22759f, 21.0001f, 3.11379f, 19.8652f)
-        curveTo(2f, 18.7302f, 2f, 16.9035f, 2f, 13.2501f)
-        curveTo(2f, 9.59674f, 2f, 7.77004f, 3.11379f, 6.63508f)
-        curveTo(4.22759f, 5.50012f, 6.02021f, 5.50012f, 9.60546f, 5.50012f)
+        curveTo(6.02021f, 21f, 4.22759f, 21f, 3.11379f, 19.865f)
+        curveTo(2f, 18.7301f, 2f, 16.9034f, 2f, 13.25f)
+        curveTo(2f, 9.59661f, 2f, 7.76992f, 3.11379f, 6.63496f)
+        curveTo(4.22759f, 5.5f, 6.02021f, 5.5f, 9.60546f, 5.5f)
         horizontalLineTo(13.4082f)
-        curveTo(16.9934f, 5.50012f, 18.7861f, 5.50012f, 19.8999f, 6.63508f)
-        curveTo(20.7568f, 7.50831f, 20.9544f, 8.79102f, 21f, 11.0001f)
+        curveTo(16.9934f, 5.5f, 18.7861f, 5.5f, 19.8999f, 6.63496f)
+        curveTo(20.7568f, 7.50819f, 20.9544f, 8.7909f, 21f, 11f)
         }
 
         path(

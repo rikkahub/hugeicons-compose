@@ -28,10 +28,10 @@ val HugeIcons.MailEdit01: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2f, 5.5f)
-        lineTo(8.91302f, 9.41697f)
-        curveTo(11.4616f, 10.861f, 12.5384f, 10.861f, 15.087f, 9.41697f)
-        lineTo(22f, 5.5f)
+        moveTo(2f, 5.49994f)
+        lineTo(8.91302f, 9.41691f)
+        curveTo(11.4616f, 10.8609f, 12.5384f, 10.8609f, 15.087f, 9.41691f)
+        lineTo(22f, 5.49994f)
         }
 
         path(
@@ -41,16 +41,16 @@ val HugeIcons.MailEdit01: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(21.9953f, 10.0284f)
-        curveTo(21.9299f, 6.96114f, 21.8972f, 5.42749f, 20.7655f, 4.29141f)
-        curveTo(19.6337f, 3.15532f, 18.0586f, 3.11574f, 14.9083f, 3.03659f)
-        curveTo(12.9668f, 2.98781f, 11.0443f, 2.9878f, 9.10276f, 3.03658f)
-        curveTo(5.95252f, 3.11573f, 4.3774f, 3.1553f, 3.24564f, 4.29139f)
-        curveTo(2.11389f, 5.42748f, 2.08118f, 6.96113f, 2.01577f, 10.0284f)
-        curveTo(1.99474f, 11.0147f, 1.99474f, 11.9951f, 2.01577f, 12.9814f)
-        curveTo(2.08119f, 16.0487f, 2.11389f, 17.5823f, 3.24565f, 18.7184f)
-        curveTo(4.3774f, 19.8545f, 5.95252f, 19.8941f, 9.10277f, 19.9732f)
-        curveTo(9.57102f, 19.985f, 10.0382f, 19.9939f, 10.5047f, 20f)
+        moveTo(21.9953f, 10.0283f)
+        curveTo(21.9299f, 6.96108f, 21.8972f, 5.42743f, 20.7655f, 4.29135f)
+        curveTo(19.6337f, 3.15526f, 18.0586f, 3.11568f, 14.9083f, 3.03653f)
+        curveTo(12.9668f, 2.98775f, 11.0443f, 2.98774f, 9.10276f, 3.03652f)
+        curveTo(5.95252f, 3.11567f, 4.3774f, 3.15524f, 3.24564f, 4.29133f)
+        curveTo(2.11389f, 5.42742f, 2.08118f, 6.96107f, 2.01577f, 10.0283f)
+        curveTo(1.99474f, 11.0146f, 1.99474f, 11.995f, 2.01577f, 12.9813f)
+        curveTo(2.08119f, 16.0486f, 2.11389f, 17.5822f, 3.24565f, 18.7183f)
+        curveTo(4.3774f, 19.8544f, 5.95252f, 19.894f, 9.10277f, 19.9731f)
+        curveTo(9.57102f, 19.9849f, 10.0382f, 19.9938f, 10.5047f, 19.9999f)
         }
 
         path(

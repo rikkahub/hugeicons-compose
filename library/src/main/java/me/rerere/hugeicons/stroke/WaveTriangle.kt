@@ -28,18 +28,18 @@ val HugeIcons.WaveTriangle: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3.00006f, 12f)
-        horizontalLineTo(7.34066f)
-        curveTo(7.74069f, 12f, 8.10223f, 12.2384f, 8.25981f, 12.6061f)
-        lineTo(10.8435f, 18.6348f)
-        curveTo(10.9385f, 18.8563f, 11.1564f, 19f, 11.3974f, 19f)
+        moveTo(3.00012f, 12f)
+        horizontalLineTo(7.34073f)
+        curveTo(7.74075f, 12f, 8.10229f, 12.2384f, 8.25987f, 12.6061f)
+        lineTo(10.8436f, 18.6348f)
+        curveTo(10.9386f, 18.8563f, 11.1564f, 19f, 11.3975f, 19f)
         curveTo(11.7303f, 19f, 12.0001f, 18.7302f, 12.0001f, 18.3974f)
         verticalLineTo(5.60262f)
         curveTo(12.0001f, 5.2698f, 12.2699f, 5f, 12.6027f, 5f)
-        curveTo(12.8438f, 5f, 13.0616f, 5.14367f, 13.1566f, 5.36526f)
+        curveTo(12.8438f, 5f, 13.0617f, 5.14367f, 13.1566f, 5.36526f)
         lineTo(15.74f, 11.3939f)
-        curveTo(15.8975f, 11.7616f, 16.2591f, 12f, 16.6591f, 12f)
-        horizontalLineTo(20.9997f)
+        curveTo(15.8976f, 11.7616f, 16.2591f, 12f, 16.6592f, 12f)
+        horizontalLineTo(20.9998f)
         }
         }.build()
 

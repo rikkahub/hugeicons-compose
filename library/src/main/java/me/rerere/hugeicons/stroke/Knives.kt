@@ -16,9 +16,9 @@ val HugeIcons.Knives: ImageVector
         }
         _knives = ImageVector.Builder(
             name = "Knives",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,12 +28,12 @@ val HugeIcons.Knives: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(16f, 10f)
-        lineTo(18.6025f, 7.39117f)
-        curveTo(19.3659f, 7.49623f, 20.1693f, 7.26445f, 20.7565f, 6.69585f)
-        curveTo(21.7478f, 5.73599f, 21.7478f, 4.17975f, 20.7565f, 3.21989f)
-        curveTo(19.7652f, 2.26004f, 18.158f, 2.26004f, 17.1667f, 3.21989f)
-        lineTo(12.5f, 7.73864f)
+        moveTo(15.5f, 10f)
+        lineTo(18.1025f, 7.39117f)
+        curveTo(18.8659f, 7.49623f, 19.6693f, 7.26445f, 20.2565f, 6.69585f)
+        curveTo(21.2478f, 5.73599f, 21.2478f, 4.17975f, 20.2565f, 3.21989f)
+        curveTo(19.2652f, 2.26004f, 17.658f, 2.26004f, 16.6667f, 3.21989f)
+        lineTo(12f, 7.73864f)
         }
 
         path(
@@ -43,10 +43,10 @@ val HugeIcons.Knives: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(17.5f, 12f)
-        lineTo(18.9252f, 10.5448f)
-        curveTo(19.7397f, 10.663f, 20.5968f, 10.4023f, 21.2233f, 9.76257f)
-        curveTo(22.2376f, 8.72688f, 22.2345f, 7.0592f, 21.3538f, 6f)
+        moveTo(17f, 12f)
+        lineTo(18.4252f, 10.5448f)
+        curveTo(19.2397f, 10.663f, 20.0968f, 10.4023f, 20.7233f, 9.76257f)
+        curveTo(21.7376f, 8.72688f, 21.7345f, 7.0592f, 20.8538f, 6f)
         }
 
         path(
@@ -56,22 +56,22 @@ val HugeIcons.Knives: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(14.1509f, 18.4629f)
-        lineTo(16.1415f, 16.4928f)
-        curveTo(17.3805f, 15.2666f, 18f, 14.6534f, 18f, 13.8916f)
-        curveTo(18f, 13.1297f, 17.3805f, 12.5165f, 16.1415f, 11.2903f)
-        lineTo(14.1703f, 9.33936f)
-        curveTo(12.9313f, 8.11312f, 12.3118f, 7.5f, 11.542f, 7.5f)
-        curveTo(10.7722f, 7.5f, 10.1527f, 8.11312f, 8.91368f, 9.33936f)
-        lineTo(4.08868f, 14.1147f)
-        curveTo(3.55152f, 14.6463f, 3.28294f, 14.9122f, 3.14147f, 15.2502f)
-        curveTo(3f, 15.5882f, 3f, 15.9641f, 3f, 16.716f)
+        moveTo(13.6509f, 18.4629f)
+        lineTo(15.6415f, 16.4928f)
+        curveTo(16.8805f, 15.2666f, 17.5f, 14.6534f, 17.5f, 13.8916f)
+        curveTo(17.5f, 13.1297f, 16.8805f, 12.5165f, 15.6415f, 11.2903f)
+        lineTo(13.6703f, 9.33936f)
+        curveTo(12.4313f, 8.11312f, 11.8118f, 7.5f, 11.042f, 7.5f)
+        curveTo(10.2722f, 7.5f, 9.65267f, 8.11312f, 8.41368f, 9.33936f)
+        lineTo(3.58868f, 14.1147f)
+        curveTo(3.05152f, 14.6463f, 2.78294f, 14.9122f, 2.64147f, 15.2502f)
+        curveTo(2.5f, 15.5882f, 2.5f, 15.9641f, 2.5f, 16.716f)
         verticalLineTo(17.821f)
-        curveTo(3f, 19.5552f, 3f, 20.4222f, 3.54434f, 20.961f)
-        curveTo(4.08867f, 21.4997f, 4.9648f, 21.4997f, 6.71698f, 21.4997f)
-        lineTo(13.1887f, 21.5f)
-        curveTo(14.9565f, 21.5f, 15.8403f, 21.5f, 16.3895f, 20.9622f)
-        curveTo(16.9387f, 20.4244f, 16.9387f, 19.5589f, 16.9387f, 17.8277f)
+        curveTo(2.5f, 19.5552f, 2.5f, 20.4222f, 3.04434f, 20.961f)
+        curveTo(3.58867f, 21.4997f, 4.4648f, 21.4997f, 6.21698f, 21.4997f)
+        lineTo(12.6887f, 21.5f)
+        curveTo(14.4565f, 21.5f, 15.3403f, 21.5f, 15.8895f, 20.9622f)
+        curveTo(16.4387f, 20.4244f, 16.4387f, 19.5589f, 16.4387f, 17.8277f)
         verticalLineTo(15.6928f)
         }
         }.build()

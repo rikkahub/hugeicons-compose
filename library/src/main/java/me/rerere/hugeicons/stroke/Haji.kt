@@ -16,9 +16,9 @@ val HugeIcons.Haji: ImageVector
         }
         _haji = ImageVector.Builder(
             name = "Haji",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,14 +28,14 @@ val HugeIcons.Haji: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(10f, 11.5f)
-        lineTo(6.58998f, 13.2453f)
-        curveTo(5.6458f, 13.7285f, 4.92974f, 14.5647f, 4.64652f, 15.5868f)
-        curveTo(4.16954f, 17.3083f, 3.5f, 20.0686f, 3.5f, 22f)
-        moveTo(15f, 11.5f)
-        lineTo(18.41f, 13.2453f)
-        curveTo(19.3542f, 13.7285f, 20.0703f, 14.5647f, 20.3535f, 15.5868f)
-        curveTo(20.8305f, 17.3083f, 21.5f, 20.0686f, 21.5f, 22f)
+        moveTo(9.5f, 11.5f)
+        lineTo(6.08998f, 13.2453f)
+        curveTo(5.1458f, 13.7285f, 4.42974f, 14.5647f, 4.14652f, 15.5868f)
+        curveTo(3.66954f, 17.3083f, 3f, 20.0686f, 3f, 22f)
+        moveTo(14.5f, 11.5f)
+        lineTo(17.91f, 13.2453f)
+        curveTo(18.8542f, 13.7285f, 19.5703f, 14.5647f, 19.8535f, 15.5868f)
+        curveTo(20.3305f, 17.3083f, 21f, 20.0686f, 21f, 22f)
         }
 
         path(
@@ -45,8 +45,8 @@ val HugeIcons.Haji: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(7.5f, 22f)
-        curveTo(7.5f, 20.8473f, 8f, 17f, 8.50137f, 16f)
+        moveTo(7f, 22f)
+        curveTo(7f, 20.8473f, 7.5f, 17f, 8.00137f, 16f)
         }
 
         path(
@@ -56,8 +56,8 @@ val HugeIcons.Haji: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(8.5f, 16.9586f)
-        curveTo(9.9359f, 17.1947f, 13.3462f, 16.5336f, 15.5f, 12f)
+        moveTo(8f, 16.9586f)
+        curveTo(9.4359f, 17.1947f, 12.8462f, 16.5336f, 15f, 12f)
         }
 
         path(
@@ -67,8 +67,8 @@ val HugeIcons.Haji: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(12.5f, 20f)
-        curveTo(12.5f, 20f, 17.5f, 18f, 18.5f, 13.5f)
+        moveTo(12f, 20f)
+        curveTo(12f, 20f, 17f, 18f, 18f, 13.5f)
         }
 
         path(
@@ -78,8 +78,8 @@ val HugeIcons.Haji: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(20.5f, 16.5f)
-        curveTo(20.0452f, 18.7075f, 19f, 21f, 17.5f, 22f)
+        moveTo(20f, 16.5f)
+        curveTo(19.5452f, 18.7075f, 18.5f, 21f, 17f, 22f)
         }
 
         path(
@@ -89,13 +89,13 @@ val HugeIcons.Haji: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(16.0005f, 9.05826f)
-        lineTo(16.421f, 6.9029f)
-        curveTo(16.9159f, 4.36646f, 15.0233f, 2f, 12.5f, 2f)
-        curveTo(9.97667f, 2f, 8.08414f, 4.36646f, 8.57901f, 6.9029f)
-        lineTo(8.99952f, 9.05826f)
-        curveTo(9.33325f, 10.7688f, 10.7983f, 12f, 12.5f, 12f)
-        curveTo(14.2017f, 12f, 15.6668f, 10.7688f, 16.0005f, 9.05826f)
+        moveTo(15.5005f, 9.05826f)
+        lineTo(15.921f, 6.9029f)
+        curveTo(16.4159f, 4.36646f, 14.5233f, 2f, 12f, 2f)
+        curveTo(9.47667f, 2f, 7.58414f, 4.36646f, 8.07901f, 6.9029f)
+        lineTo(8.49952f, 9.05826f)
+        curveTo(8.83325f, 10.7688f, 10.2983f, 12f, 12f, 12f)
+        curveTo(13.7017f, 12f, 15.1668f, 10.7688f, 15.5005f, 9.05826f)
         }
 
         path(
@@ -105,10 +105,10 @@ val HugeIcons.Haji: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(8.5f, 6f)
-        lineTo(11.5299f, 5.1362f)
-        curveTo(12.1668f, 4.9546f, 12.8332f, 4.9546f, 13.4701f, 5.1362f)
-        lineTo(16.5f, 6f)
+        moveTo(8f, 6f)
+        lineTo(11.0299f, 5.1362f)
+        curveTo(11.6668f, 4.9546f, 12.3332f, 4.9546f, 12.9701f, 5.1362f)
+        lineTo(16f, 6f)
         }
         }.build()
 

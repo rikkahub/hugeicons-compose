@@ -43,8 +43,8 @@ val HugeIcons.UserGroup03: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(16f, 4f)
-        curveTo(17.6568f, 4f, 19f, 5.34315f, 19f, 7f)
-        curveTo(19f, 8.22309f, 18.268f, 9.27523f, 17.2183f, 9.7423f)
+        curveTo(17.6569f, 4f, 19f, 5.34315f, 19f, 7f)
+        curveTo(19f, 8.22309f, 18.2681f, 9.27523f, 17.2183f, 9.7423f)
         }
 
         path(

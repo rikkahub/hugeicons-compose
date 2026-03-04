@@ -62,8 +62,8 @@ val HugeIcons.ArrowLeftRight: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(6.99991f, 4f)
-        curveTo(6.99991f, 4f, 3.99994f, 6.20947f, 3.99994f, 7.00002f)
+        moveTo(6.99992f, 4f)
+        curveTo(6.99992f, 4f, 3.99995f, 6.20947f, 3.99994f, 7.00002f)
         curveTo(3.99993f, 7.79058f, 6.99994f, 10f, 6.99994f, 10f)
         }
         }.build()

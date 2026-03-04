@@ -28,10 +28,10 @@ val HugeIcons.AiLaptop: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3.9926f, 14.999f)
+        moveTo(3.99261f, 14.999f)
         verticalLineTo(6.96505f)
-        curveTo(3.9926f, 5.07142f, 3.9926f, 4.12461f, 4.5762f, 3.53633f)
-        curveTo(4.90157f, 3.20835f, 5.33749f, 3.06323f, 5.98512f, 2.99902f)
+        curveTo(3.99261f, 5.07142f, 3.99261f, 4.12461f, 4.57622f, 3.53633f)
+        curveTo(4.90158f, 3.20835f, 5.33751f, 3.06323f, 5.98514f, 2.99902f)
         horizontalLineTo(10.9664f)
         }
 
@@ -42,15 +42,15 @@ val HugeIcons.AiLaptop: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3.4921f, 16.0144f)
-        lineTo(4.01206f, 14.999f)
+        moveTo(3.49208f, 16.0144f)
+        lineTo(4.01204f, 14.999f)
         horizontalLineTo(19.8848f)
         lineTo(20.4332f, 16.0144f)
         curveTo(21.8707f, 18.676f, 22.2288f, 20.0067f, 21.6823f, 21.0029f)
         curveTo(21.136f, 21.999f, 19.6873f, 21.999f, 16.79f, 21.999f)
-        horizontalLineTo(7.13543f)
-        curveTo(4.2381f, 21.999f, 2.78942f, 21.999f, 2.24303f, 21.0029f)
-        curveTo(1.69664f, 20.0067f, 2.05461f, 18.676f, 3.4921f, 16.0144f)
+        horizontalLineTo(7.13541f)
+        curveTo(4.23808f, 21.999f, 2.78941f, 21.999f, 2.24302f, 21.0029f)
+        curveTo(1.69663f, 20.0067f, 2.0546f, 18.676f, 3.49208f, 16.0144f)
         }
 
         path(
@@ -74,7 +74,7 @@ val HugeIcons.AiLaptop: ImageVector
         verticalLineTo(11.9992f)
         moveTo(18.4508f, 10.0202f)
         verticalLineTo(11.9992f)
-        moveTo(18.4401f, 2.00098f)
+        moveTo(18.4402f, 2.00098f)
         verticalLineTo(3.98f)
         moveTo(15.0033f, 9.96854f)
         horizontalLineTo(18.9595f)
@@ -82,9 +82,9 @@ val HugeIcons.AiLaptop: ImageVector
         verticalLineTo(4.98f)
         curveTo(19.9558f, 4.42771f, 19.5097f, 3.98f, 18.9595f, 3.98f)
         horizontalLineTo(15.0033f)
-        curveTo(14.453f, 3.98f, 14.007f, 4.42771f, 14.007f, 4.98f)
+        curveTo(14.4531f, 3.98f, 14.007f, 4.42771f, 14.007f, 4.98f)
         verticalLineTo(8.96854f)
-        curveTo(14.007f, 9.52082f, 14.453f, 9.96854f, 15.0033f, 9.96854f)
+        curveTo(14.007f, 9.52082f, 14.4531f, 9.96854f, 15.0033f, 9.96854f)
         }
         }.build()
 

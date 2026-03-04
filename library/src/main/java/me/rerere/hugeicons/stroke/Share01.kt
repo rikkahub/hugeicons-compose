@@ -28,7 +28,7 @@ val HugeIcons.Share01: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(9.39583f, 4.5f)
+        moveTo(9.39584f, 4.5f)
         horizontalLineTo(8.35417f)
         curveTo(5.40789f, 4.5f, 3.93475f, 4.5f, 3.01946f, 5.37868f)
         curveTo(2.10417f, 6.25736f, 2.10417f, 7.67157f, 2.10417f, 10.5f)

@@ -33,7 +33,6 @@ val HugeIcons.MapsRefresh: ImageVector
         curveTo(21.3715f, 18.8649f, 21.6083f, 18.9286f, 21.804f, 18.7786f)
         curveTo(21.8041f, 18.7785f, 21.8043f, 18.7784f, 21.8044f, 18.7784f)
         curveTo(22f, 18.6283f, 22f, 18.4188f, 22f, 18f)
-        verticalLineTo(18f)
         curveTo(22f, 15.7909f, 20.2091f, 14f, 18f, 14f)
         curveTo(17.1234f, 14f, 16.3126f, 14.282f, 15.6535f, 14.7602f)
         moveTo(15.7143f, 17.4286f)
@@ -41,7 +40,6 @@ val HugeIcons.MapsRefresh: ImageVector
         curveTo(14.6289f, 17.1357f, 14.3926f, 17.0719f, 14.1968f, 17.2212f)
         curveTo(14.1963f, 17.2216f, 14.1956f, 17.2221f, 14.1952f, 17.2225f)
         curveTo(14f, 17.3726f, 14f, 17.5817f, 14f, 18f)
-        verticalLineTo(18f)
         curveTo(14f, 20.2091f, 15.7909f, 22f, 18f, 22f)
         curveTo(18.8474f, 22f, 19.6333f, 21.7365f, 20.2801f, 21.2869f)
         }

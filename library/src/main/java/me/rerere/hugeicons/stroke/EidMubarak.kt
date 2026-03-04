@@ -16,9 +16,9 @@ val HugeIcons.EidMubarak: ImageVector
         }
         _eidMubarak = ImageVector.Builder(
             name = "EidMubarak",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,13 +28,13 @@ val HugeIcons.EidMubarak: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(3f, 11.8049f)
-        curveTo(3f, 17.1594f, 7.34065f, 21.5f, 12.6951f, 21.5f)
-        curveTo(17.101f, 21.5f, 20.8204f, 18.5611f, 22f, 14.5367f)
-        curveTo(20.5791f, 15.5691f, 18.8306f, 16.1779f, 16.94f, 16.1779f)
-        curveTo(12.1804f, 16.1779f, 8.32208f, 12.3196f, 8.32208f, 7.56005f)
-        curveTo(8.32208f, 5.66937f, 8.93094f, 3.9209f, 9.96326f, 2.5f)
-        curveTo(5.9389f, 3.67959f, 3f, 7.39904f, 3f, 11.8049f)
+        moveTo(2.5f, 11.8049f)
+        curveTo(2.5f, 17.1594f, 6.84065f, 21.5f, 12.1951f, 21.5f)
+        curveTo(16.601f, 21.5f, 20.3204f, 18.5611f, 21.5f, 14.5367f)
+        curveTo(20.0791f, 15.5691f, 18.3306f, 16.1779f, 16.44f, 16.1779f)
+        curveTo(11.6804f, 16.1779f, 7.82208f, 12.3196f, 7.82208f, 7.56005f)
+        curveTo(7.82208f, 5.66937f, 8.43094f, 3.9209f, 9.46326f, 2.5f)
+        curveTo(5.4389f, 3.67959f, 2.5f, 7.39904f, 2.5f, 11.8049f)
         }
 
         path(
@@ -44,14 +44,14 @@ val HugeIcons.EidMubarak: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(13.7503f, 8.5f)
-        curveTo(11.3263f, 5.5f, 15.4612f, 4f, 16.4999f, 2.5f)
-        curveTo(17.5388f, 4f, 21.6737f, 5.5f, 19.2497f, 8.5f)
-        moveTo(13.7503f, 8.5f)
-        horizontalLineTo(19.2497f)
-        moveTo(13.7503f, 8.5f)
+        moveTo(13.2503f, 8.5f)
+        curveTo(10.8263f, 5.5f, 14.9612f, 4f, 15.9999f, 2.5f)
+        curveTo(17.0388f, 4f, 21.1737f, 5.5f, 18.7497f, 8.5f)
+        moveTo(13.2503f, 8.5f)
+        horizontalLineTo(18.7497f)
+        moveTo(13.2503f, 8.5f)
         verticalLineTo(15.5f)
-        moveTo(19.2497f, 8.5f)
+        moveTo(18.7497f, 8.5f)
         verticalLineTo(15.5f)
         }
         }.build()

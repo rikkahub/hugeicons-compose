@@ -46,8 +46,8 @@ val HugeIcons.Layout04: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(8.99999f, 21.5f)
-        lineTo(8.99999f, 2.5f)
+        moveTo(9f, 21.5f)
+        lineTo(9f, 2.5f)
         }
 
         path(

@@ -99,7 +99,6 @@ val HugeIcons.Bed: ImageVector
         curveTo(2.67243f, 7.55042f, 2.65307f, 7.56523f, 2.62289f, 7.59026f)
         curveTo(2.3843f, 7.78812f, 2.17276f, 8.07424f, 2.05352f, 8.36034f)
         curveTo(2.03844f, 8.39653f, 2.02562f, 8.43102f, 2f, 8.5f)
-        verticalLineTo(8.5f)
         }
         }.build()
 

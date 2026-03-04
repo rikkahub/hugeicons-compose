@@ -70,7 +70,6 @@ val HugeIcons.HandSanitizer: ImageVector
         verticalLineTo(9f)
         curveTo(12.5f, 7.58579f, 12.5f, 6.87868f, 12.0607f, 6.43934f)
         curveTo(11.6213f, 6f, 10.9142f, 6f, 9.5f, 6f)
-        verticalLineTo(6f)
         curveTo(8.08579f, 6f, 7.37868f, 6f, 6.93934f, 6.43934f)
         curveTo(6.5f, 6.87868f, 6.5f, 7.58579f, 6.5f, 9f)
         verticalLineTo(9.5f)
@@ -86,7 +85,6 @@ val HugeIcons.HandSanitizer: ImageVector
         moveTo(11f, 6f)
         verticalLineTo(3.5f)
         curveTo(11f, 2.67157f, 10.3284f, 2f, 9.5f, 2f)
-        verticalLineTo(2f)
         curveTo(8.67157f, 2f, 8f, 2.67157f, 8f, 3.5f)
         lineTo(8f, 6f)
         }

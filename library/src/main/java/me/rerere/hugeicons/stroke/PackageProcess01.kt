@@ -32,7 +32,7 @@ val HugeIcons.PackageProcess01: ImageVector
         verticalLineTo(13.5f)
         curveTo(2.5f, 17.2712f, 2.5f, 19.1569f, 3.67157f, 20.3284f)
         curveTo(4.84315f, 21.5f, 6.72876f, 21.5f, 10.5f, 21.5f)
-        horizontalLineTo(12.5f)
+        horizontalLineTo(11.5f)
         moveTo(21.5f, 11.5f)
         verticalLineTo(7.5f)
         }
@@ -84,14 +84,14 @@ val HugeIcons.PackageProcess01: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(18f, 15.5f)
-        verticalLineTo(17.5f)
-        horizontalLineTo(19.5f)
-        moveTo(22f, 17.5f)
-        curveTo(22f, 19.7091f, 20.2091f, 21.5f, 18f, 21.5f)
-        curveTo(15.7909f, 21.5f, 14f, 19.7091f, 14f, 17.5f)
-        curveTo(14f, 15.2909f, 15.7909f, 13.5f, 18f, 13.5f)
-        curveTo(20.2091f, 13.5f, 22f, 15.2909f, 22f, 17.5f)
+        moveTo(17.5f, 15.5012f)
+        verticalLineTo(17.5012f)
+        horizontalLineTo(19f)
+        moveTo(21.5f, 17.5012f)
+        curveTo(21.5f, 19.7103f, 19.7091f, 21.5012f, 17.5f, 21.5012f)
+        curveTo(15.2909f, 21.5012f, 13.5f, 19.7103f, 13.5f, 17.5012f)
+        curveTo(13.5f, 15.2921f, 15.2909f, 13.5012f, 17.5f, 13.5012f)
+        curveTo(19.7091f, 13.5012f, 21.5f, 15.2921f, 21.5f, 17.5012f)
         }
         }.build()
 

@@ -128,7 +128,7 @@ val HugeIcons.BedBunk: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(17f, 16f)
-        lineTo(22f, 16f)
+        horizontalLineTo(22f)
         }
 
         path(

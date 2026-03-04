@@ -51,7 +51,7 @@ val HugeIcons.WifiOff01: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(5.5f, 11.4999f)
-        curveTo(6.59299f, 10.589f, 7.778f, 9.91294f, 9f, 9.49988f)
+        curveTo(6.59299f, 10.5891f, 7.778f, 9.91296f, 9f, 9.49989f)
         }
 
         path(

@@ -9,16 +9,16 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import me.rerere.hugeicons.HugeIcons
 
-val HugeIcons.FourSquare: ImageVector
+val HugeIcons.Foursquare: ImageVector
     get() {
-        if (_fourSquare != null) {
-            return _fourSquare!!
+        if (_foursquare != null) {
+            return _foursquare!!
         }
-        _fourSquare = ImageVector.Builder(
-            name = "FourSquare",
-            defaultWidth = 25.dp,
+        _foursquare = ImageVector.Builder(
+            name = "Foursquare",
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,15 +28,22 @@ val HugeIcons.FourSquare: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(2.99707f, 12f)
-        curveTo(2.99707f, 7.52166f, 2.99707f, 5.28249f, 4.38831f, 3.89124f)
-        curveTo(5.77956f, 2.5f, 8.01873f, 2.5f, 12.4971f, 2.5f)
-        curveTo(16.9754f, 2.5f, 19.2146f, 2.5f, 20.6058f, 3.89124f)
-        curveTo(21.9971f, 5.28249f, 21.9971f, 7.52166f, 21.9971f, 12f)
-        curveTo(21.9971f, 16.4783f, 21.9971f, 18.7175f, 20.6058f, 20.1088f)
-        curveTo(19.2146f, 21.5f, 16.9754f, 21.5f, 12.4971f, 21.5f)
-        curveTo(8.01873f, 21.5f, 5.77956f, 21.5f, 4.38831f, 20.1088f)
-        curveTo(2.99707f, 18.7175f, 2.99707f, 16.4783f, 2.99707f, 12f)
+        moveTo(15.8989f, 2f)
+        horizontalLineTo(7.71957f)
+        curveTo(6.43755f, 2f, 5.79654f, 2f, 5.39827f, 2.4282f)
+        curveTo(5f, 2.8564f, 5f, 3.54557f, 5f, 4.92392f)
+        verticalLineTo(16.7262f)
+        curveTo(5f, 19.9619f, 5f, 21.5797f, 5.87654f, 21.938f)
+        curveTo(6.75308f, 22.2963f, 7.75279f, 21.0872f, 9.75219f, 18.6688f)
+        lineTo(11.7113f, 16.2992f)
+        curveTo(11.9776f, 15.9771f, 12.1107f, 15.816f, 12.2879f, 15.7305f)
+        curveTo(12.4651f, 15.645f, 12.6655f, 15.645f, 13.0664f, 15.645f)
+        horizontalLineTo(13.1431f)
+        curveTo(14.4596f, 15.645f, 15.1178f, 15.645f, 15.6025f, 15.2519f)
+        curveTo(16.0872f, 14.8588f, 16.268f, 14.1784f, 16.6297f, 12.8174f)
+        lineTo(18.5139f, 5.72719f)
+        curveTo(18.9681f, 4.01783f, 19.1952f, 3.16315f, 18.7872f, 2.58158f)
+        curveTo(18.3792f, 2f, 17.5524f, 2f, 15.8989f, 2f)
         }
 
         path(
@@ -46,19 +53,12 @@ val HugeIcons.FourSquare: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(15.4971f, 7f)
-        verticalLineTo(12.5f)
-        moveTo(15.4971f, 12.5f)
-        verticalLineTo(17f)
-        moveTo(15.4971f, 12.5f)
-        horizontalLineTo(9.93308f)
-        curveTo(9.69228f, 12.5f, 9.49707f, 12.3048f, 9.49707f, 12.064f)
-        curveTo(9.49707f, 12.0216f, 9.50327f, 11.9794f, 9.51546f, 11.9387f)
-        lineTo(10.9971f, 7f)
+        moveTo(17.5f, 9f)
+        lineTo(12f, 9f)
         }
         }.build()
 
-        return _fourSquare!!
+        return _foursquare!!
     }
 
-private var _fourSquare: ImageVector? = null
+private var _foursquare: ImageVector? = null

@@ -28,11 +28,11 @@ val HugeIcons.Mining01: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(7.99991f, 17f)
-        curveTo(6.89534f, 17f, 5.99991f, 17.8954f, 5.99991f, 19f)
-        curveTo(5.99991f, 20.1046f, 6.89534f, 21f, 7.99991f, 21f)
-        curveTo(9.10448f, 21f, 9.99991f, 20.1046f, 9.99991f, 19f)
-        curveTo(9.99991f, 17.8954f, 9.10448f, 17f, 7.99991f, 17f)
+        moveTo(7.99994f, 17f)
+        curveTo(6.89537f, 17f, 5.99994f, 17.8954f, 5.99994f, 19f)
+        curveTo(5.99994f, 20.1046f, 6.89537f, 21f, 7.99994f, 21f)
+        curveTo(9.10451f, 21f, 9.99994f, 20.1046f, 9.99994f, 19f)
+        curveTo(9.99994f, 17.8954f, 9.10451f, 17f, 7.99994f, 17f)
         }
 
         path(
@@ -43,10 +43,10 @@ val HugeIcons.Mining01: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(12.8739f, 8f)
-        curveTo(12.9562f, 7.68038f, 12.9999f, 7.3453f, 12.9999f, 7f)
-        curveTo(12.9999f, 4.79086f, 11.209f, 3f, 8.99991f, 3f)
-        curveTo(6.79077f, 3f, 4.99991f, 4.79086f, 4.99991f, 7f)
-        curveTo(4.99991f, 7.3453f, 5.04366f, 7.68038f, 5.12593f, 8f)
+        curveTo(12.9561f, 7.68038f, 12.9999f, 7.3453f, 12.9999f, 7f)
+        curveTo(12.9999f, 4.79086f, 11.209f, 3f, 8.99988f, 3f)
+        curveTo(6.79074f, 3f, 4.99988f, 4.79086f, 4.99988f, 7f)
+        curveTo(4.99988f, 7.3453f, 5.04363f, 7.68038f, 5.1259f, 8f)
         }
 
         path(
@@ -70,8 +70,8 @@ val HugeIcons.Mining01: ImageVector
             strokeLineJoin = StrokeJoin.Round
         ) {
         moveTo(15.9999f, 17f)
-        curveTo(14.8953f, 17f, 13.9999f, 17.8954f, 13.9999f, 19f)
-        curveTo(13.9999f, 20.1046f, 14.8953f, 21f, 15.9999f, 21f)
+        curveTo(14.8954f, 17f, 13.9999f, 17.8954f, 13.9999f, 19f)
+        curveTo(13.9999f, 20.1046f, 14.8954f, 21f, 15.9999f, 21f)
         curveTo(17.1045f, 21f, 17.9999f, 20.1046f, 17.9999f, 19f)
         curveTo(17.9999f, 17.8954f, 17.1045f, 17f, 15.9999f, 17f)
         }

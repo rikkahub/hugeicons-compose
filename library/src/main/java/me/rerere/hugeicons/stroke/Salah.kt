@@ -16,9 +16,9 @@ val HugeIcons.Salah: ImageVector
         }
         _salah = ImageVector.Builder(
             name = "Salah",
-            defaultWidth = 25.dp,
+            defaultWidth = 24.dp,
             defaultHeight = 24.dp,
-            viewportWidth = 25f,
+            viewportWidth = 24f,
             viewportHeight = 24f
         ).apply {
         path(
@@ -28,23 +28,23 @@ val HugeIcons.Salah: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(18f, 18f)
-        curveTo(17.7128f, 17.2408f, 17.4563f, 16.1375f, 16.5f, 15.5f)
-        curveTo(15f, 14.5f, 13.5f, 14f, 13.5f, 12.5f)
-        curveTo(13.5f, 11f, 13f, 8f, 13f, 8f)
-        lineTo(13.6955f, 7.26803f)
-        curveTo(15.3935f, 8.02463f, 17f, 5.88071f, 17f, 4.5f)
-        curveTo(17f, 3.11929f, 15.8807f, 2f, 14.5f, 2f)
-        curveTo(13.1193f, 2f, 12f, 3.11929f, 12f, 4.5f)
-        curveTo(12f, 5.5f, 11.2f, 6.1f, 10f, 6.5f)
-        curveTo(8.5f, 7f, 6.5f, 8f, 6.5f, 13f)
-        curveTo(6.5f, 17f, 8.33333f, 18.3333f, 9f, 19f)
-        curveTo(5.8f, 19f, 5f, 21f, 5f, 22f)
-        horizontalLineTo(18f)
-        curveTo(19.1046f, 22f, 20f, 21.1046f, 20f, 20f)
-        curveTo(20f, 18.8954f, 19.1046f, 18f, 18f, 18f)
-        moveTo(18f, 18f)
-        curveTo(10.2719f, 18f, 9.55992f, 13.3333f, 10f, 11f)
+        moveTo(17.5f, 18f)
+        curveTo(17.2128f, 17.2408f, 16.9563f, 16.1375f, 16f, 15.5f)
+        curveTo(14.5f, 14.5f, 13f, 14f, 13f, 12.5f)
+        curveTo(13f, 11f, 12.5f, 8f, 12.5f, 8f)
+        lineTo(13.1955f, 7.26803f)
+        curveTo(14.8935f, 8.02463f, 16.5f, 5.88071f, 16.5f, 4.5f)
+        curveTo(16.5f, 3.11929f, 15.3807f, 2f, 14f, 2f)
+        curveTo(12.6193f, 2f, 11.5f, 3.11929f, 11.5f, 4.5f)
+        curveTo(11.5f, 5.5f, 10.7f, 6.1f, 9.5f, 6.5f)
+        curveTo(8f, 7f, 6f, 8f, 6f, 13f)
+        curveTo(6f, 17f, 7.83333f, 18.3333f, 8.5f, 19f)
+        curveTo(5.3f, 19f, 4.5f, 21f, 4.5f, 22f)
+        horizontalLineTo(17.5f)
+        curveTo(18.6046f, 22f, 19.5f, 21.1046f, 19.5f, 20f)
+        curveTo(19.5f, 18.8954f, 18.6046f, 18f, 17.5f, 18f)
+        moveTo(17.5f, 18f)
+        curveTo(9.7719f, 18f, 9.05992f, 13.3333f, 9.5f, 11f)
         }
         }.build()
 

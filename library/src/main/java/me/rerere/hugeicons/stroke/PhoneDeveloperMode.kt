@@ -75,9 +75,9 @@ val HugeIcons.PhoneDeveloperMode: ImageVector
             strokeLineCap = StrokeCap.Round,
             strokeLineJoin = StrokeJoin.Round
         ) {
-        moveTo(8.50003f, 15.5f)
-        curveTo(8.50003f, 15.5f, 5.00007f, 12.9223f, 5.00006f, 12f)
-        curveTo(5.00005f, 11.0777f, 8.50006f, 8.5f, 8.50006f, 8.5f)
+        moveTo(8.5f, 15.5f)
+        curveTo(8.5f, 15.5f, 5.00004f, 12.9223f, 5.00003f, 12f)
+        curveTo(5.00002f, 11.0777f, 8.50003f, 8.5f, 8.50003f, 8.5f)
         }
         }.build()
 
