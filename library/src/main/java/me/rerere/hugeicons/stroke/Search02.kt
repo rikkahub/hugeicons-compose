@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,43 +24,46 @@ val HugeIcons.Search02: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Butt,
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(15f, 15f)
-        lineTo(16.5f, 16.5f)
+            moveTo(17f, 10f)
+            curveTo(17f, 13.866f, 13.866f, 17f, 10f, 17f)
+            curveTo(6.13401f, 17f, 3f, 13.866f, 3f, 10f)
+            curveTo(3f, 6.13401f, 6.13401f, 3f, 10f, 3f)
+            curveTo(13.866f, 3f, 17f, 6.13401f, 17f, 10f)
+            close()
         }
 
         path(
-            fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            fill = SolidColor(Color(0xFF141B34)),
+            stroke = null,
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1f,
+            strokeLineCap = StrokeCap.Butt,
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(16.9333f, 19.0252f)
-        curveTo(16.3556f, 18.4475f, 16.3556f, 17.5109f, 16.9333f, 16.9333f)
-        curveTo(17.5109f, 16.3556f, 18.4475f, 16.3556f, 19.0252f, 16.9333f)
-        lineTo(21.0667f, 18.9748f)
-        curveTo(21.6444f, 19.5525f, 21.6444f, 20.4891f, 21.0667f, 21.0667f)
-        curveTo(20.4891f, 21.6444f, 19.5525f, 21.6444f, 18.9748f, 21.0667f)
-        lineTo(16.9333f, 19.0252f)
-        }
-
-        path(
-            fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
-        ) {
-        moveTo(16.5f, 9.5f)
-        curveTo(16.5f, 5.63401f, 13.366f, 2.5f, 9.5f, 2.5f)
-        curveTo(5.63401f, 2.5f, 2.5f, 5.63401f, 2.5f, 9.5f)
-        curveTo(2.5f, 13.366f, 5.63401f, 16.5f, 9.5f, 16.5f)
-        curveTo(13.366f, 16.5f, 16.5f, 13.366f, 16.5f, 9.5f)
+            moveTo(20.4697f, 21.5303f)
+            curveTo(20.7626f, 21.8232f, 21.2374f, 21.8232f, 21.5303f, 21.5303f)
+            curveTo(21.8232f, 21.2374f, 21.8232f, 20.7626f, 21.5303f, 20.4697f)
+            lineTo(21f, 21f)
+            lineTo(20.4697f, 21.5303f)
+            close()
+            moveTo(15f, 15f)
+            lineTo(14.4697f, 15.5303f)
+            lineTo(20.4697f, 21.5303f)
+            lineTo(21f, 21f)
+            lineTo(21.5303f, 20.4697f)
+            lineTo(15.5303f, 14.4697f)
+            lineTo(15f, 15f)
+            close()
         }
         }.build()
 

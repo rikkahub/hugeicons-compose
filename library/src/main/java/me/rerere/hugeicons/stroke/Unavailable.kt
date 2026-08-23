@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,27 +24,34 @@ val HugeIcons.Unavailable: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(5.25f, 5f)
-        lineTo(19.25f, 19f)
+            moveTo(5.25f, 5f)
+            lineTo(19.25f, 19f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Butt,
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(22.25f, 12f)
-        curveTo(22.25f, 6.47715f, 17.7728f, 2f, 12.25f, 2f)
-        curveTo(6.72715f, 2f, 2.25f, 6.47715f, 2.25f, 12f)
-        curveTo(2.25f, 17.5228f, 6.72715f, 22f, 12.25f, 22f)
-        curveTo(17.7728f, 22f, 22.25f, 17.5228f, 22.25f, 12f)
+            moveTo(22.25f, 12f)
+            curveTo(22.25f, 6.47715f, 17.7728f, 2f, 12.25f, 2f)
+            curveTo(6.72715f, 2f, 2.25f, 6.47715f, 2.25f, 12f)
+            curveTo(2.25f, 17.5228f, 6.72715f, 22f, 12.25f, 22f)
+            curveTo(17.7728f, 22f, 22.25f, 17.5228f, 22.25f, 12f)
+            close()
         }
         }.build()
 

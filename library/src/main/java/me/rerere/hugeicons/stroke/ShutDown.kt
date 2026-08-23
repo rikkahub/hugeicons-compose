@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,27 +24,33 @@ val HugeIcons.ShutDown: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(7.86907f, 4f)
-        curveTo(4.97674f, 5.49689f, 3f, 8.51664f, 3f, 11.9981f)
-        curveTo(3f, 16.9686f, 7.02944f, 20.9981f, 12f, 20.9981f)
-        curveTo(16.9706f, 20.9981f, 21f, 16.9686f, 21f, 11.9981f)
-        curveTo(21f, 8.51664f, 19.0233f, 5.49689f, 16.1309f, 4f)
+            moveTo(7.86907f, 4f)
+            curveTo(4.97674f, 5.49689f, 3f, 8.51664f, 3f, 11.9981f)
+            curveTo(3f, 16.9686f, 7.02944f, 20.9981f, 12f, 20.9981f)
+            curveTo(16.9706f, 20.9981f, 21f, 16.9686f, 21f, 11.9981f)
+            curveTo(21f, 8.51664f, 19.0233f, 5.49689f, 16.1309f, 4f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(12f, 3f)
-        verticalLineTo(10f)
+            moveTo(12f, 3f)
+            verticalLineTo(10f)
         }
         }.build()
 

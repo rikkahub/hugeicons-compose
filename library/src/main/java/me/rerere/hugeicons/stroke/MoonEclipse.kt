@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,14 +24,33 @@ val HugeIcons.MoonEclipse: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(10f, 2.2002f)
-        curveTo(14.5645f, 3.12674f, 18f, 7.16224f, 18f, 12.0002f)
-        curveTo(18f, 16.8381f, 14.5645f, 20.8736f, 10f, 21.8001f)
+            moveTo(22f, 12f)
+            arcTo(10f, 10f, 0f, true, false, 2f, 12f)
+            arcTo(10f, 10f, 0f, true, false, 22f, 12f)
+            close()
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(10f, 2.2002f)
+            curveTo(14.5645f, 3.12674f, 18f, 7.16224f, 18f, 12.0002f)
+            curveTo(18f, 16.8381f, 14.5645f, 20.8736f, 10f, 21.8001f)
         }
         }.build()
 

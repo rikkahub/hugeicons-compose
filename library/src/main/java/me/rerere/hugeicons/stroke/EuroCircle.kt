@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,33 +24,40 @@ val HugeIcons.EuroCircle: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Butt,
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(22f, 12f)
-        curveTo(22f, 17.5228f, 17.5228f, 22f, 12f, 22f)
-        curveTo(6.47715f, 22f, 2f, 17.5228f, 2f, 12f)
-        curveTo(2f, 6.47715f, 6.47715f, 2f, 12f, 2f)
-        curveTo(17.5228f, 2f, 22f, 6.47715f, 22f, 12f)
+            moveTo(22f, 12f)
+            curveTo(22f, 17.5228f, 17.5228f, 22f, 12f, 22f)
+            curveTo(6.47715f, 22f, 2f, 17.5228f, 2f, 12f)
+            curveTo(2f, 6.47715f, 6.47715f, 2f, 12f, 2f)
+            curveTo(17.5228f, 2f, 22f, 6.47715f, 22f, 12f)
+            close()
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(15f, 14.4923f)
-        curveTo(14.5216f, 15.3957f, 13.6512f, 16f, 12.6568f, 16f)
-        curveTo(11.147f, 16f, 9.92308f, 14.6071f, 9.92308f, 12.8889f)
-        verticalLineTo(11.1111f)
-        curveTo(9.92308f, 9.39289f, 11.147f, 8f, 12.6568f, 8f)
-        curveTo(13.6512f, 8f, 14.5216f, 8.60426f, 15f, 9.50774f)
-        moveTo(9f, 12f)
-        horizontalLineTo(12.9231f)
+            moveTo(15f, 14.4923f)
+            curveTo(14.5216f, 15.3957f, 13.6512f, 16f, 12.6568f, 16f)
+            curveTo(11.147f, 16f, 9.92308f, 14.6071f, 9.92308f, 12.8889f)
+            verticalLineTo(11.1111f)
+            curveTo(9.92308f, 9.39289f, 11.147f, 8f, 12.6568f, 8f)
+            curveTo(13.6512f, 8f, 14.5216f, 8.60426f, 15f, 9.50774f)
+            moveTo(9f, 12f)
+            horizontalLineTo(12.9231f)
         }
         }.build()
 

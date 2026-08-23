@@ -1,0 +1,89 @@
+package me.rerere.hugeicons.stroke
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import me.rerere.hugeicons.HugeIcons
+
+val HugeIcons.Banknote: ImageVector
+    get() {
+        if (_banknote != null) {
+            return _banknote!!
+        }
+        _banknote = ImageVector.Builder(
+            name = "Banknote",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(15f, 12f)
+            curveTo(15f, 13.6569f, 13.6569f, 15f, 12f, 15f)
+            curveTo(10.3431f, 15f, 9f, 13.6569f, 9f, 12f)
+            curveTo(9f, 10.3431f, 10.3431f, 9f, 12f, 9f)
+            curveTo(13.6569f, 9f, 15f, 10.3431f, 15f, 12f)
+            close()
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(19f, 8f)
+            horizontalLineTo(17f)
+            moveTo(5f, 16f)
+            horizontalLineTo(7f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(16f, 5f)
+            horizontalLineTo(8f)
+            curveTo(5.17157f, 5f, 3.75736f, 5f, 2.87868f, 5.87868f)
+            curveTo(2f, 6.75736f, 2f, 8.17157f, 2f, 11f)
+            verticalLineTo(13f)
+            curveTo(2f, 15.8284f, 2f, 17.2426f, 2.87868f, 18.1213f)
+            curveTo(3.75736f, 19f, 5.17157f, 19f, 8f, 19f)
+            horizontalLineTo(16f)
+            curveTo(18.8284f, 19f, 20.2426f, 19f, 21.1213f, 18.1213f)
+            curveTo(22f, 17.2426f, 22f, 15.8284f, 22f, 13f)
+            verticalLineTo(11f)
+            curveTo(22f, 8.17157f, 22f, 6.75736f, 21.1213f, 5.87868f)
+            curveTo(20.2426f, 5f, 18.8284f, 5f, 16f, 5f)
+            close()
+        }
+        }.build()
+
+        return _banknote!!
+    }
+
+private var _banknote: ImageVector? = null

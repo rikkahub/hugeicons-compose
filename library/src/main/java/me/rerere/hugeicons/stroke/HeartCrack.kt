@@ -1,0 +1,71 @@
+package me.rerere.hugeicons.stroke
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import me.rerere.hugeicons.HugeIcons
+
+val HugeIcons.HeartCrack: ImageVector
+    get() {
+        if (_heartCrack != null) {
+            return _heartCrack!!
+        }
+        _heartCrack = ImageVector.Builder(
+            name = "HeartCrack",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(12f, 6f)
+            curveTo(11.298f, 6.792f, 10.8256f, 7.33f, 10.5606f, 8f)
+            lineTo(12.8536f, 10.146f)
+            curveTo(12.9474f, 10.2398f, 13f, 10.3669f, 13f, 10.4995f)
+            curveTo(13f, 10.6321f, 12.9474f, 10.7592f, 12.8536f, 10.853f)
+            lineTo(10.6464f, 13.1465f)
+            curveTo(10.5527f, 13.2403f, 10.5f, 13.3674f, 10.5f, 13.5f)
+            curveTo(10.5f, 13.6326f, 10.5527f, 13.7597f, 10.6464f, 13.8535f)
+            lineTo(11.7066f, 15f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(10.4107f, 19.9677f)
+            curveTo(7.58942f, 17.858f, 2f, 13.0348f, 2f, 8.69444f)
+            curveTo(2f, 5.82563f, 4.10526f, 3.5f, 7f, 3.5f)
+            curveTo(8.5f, 3.5f, 10f, 4f, 12f, 6f)
+            curveTo(14f, 4f, 15.5f, 3.5f, 17f, 3.5f)
+            curveTo(19.8947f, 3.5f, 22f, 5.82563f, 22f, 8.69444f)
+            curveTo(22f, 13.0348f, 16.4106f, 17.858f, 13.5893f, 19.9677f)
+            curveTo(12.6399f, 20.6776f, 11.3601f, 20.6776f, 10.4107f, 19.9677f)
+            close()
+        }
+        }.build()
+
+        return _heartCrack!!
+    }
+
+private var _heartCrack: ImageVector? = null

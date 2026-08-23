@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,22 +24,26 @@ val HugeIcons.Coinbase: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Butt,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(21f, 11f)
-        curveTo(20.501f, 6.50005f, 16.6743f, 3f, 12.0275f, 3f)
-        curveTo(7.04177f, 3f, 3f, 7.02944f, 3f, 12f)
-        curveTo(3f, 16.9706f, 7.04177f, 21f, 12.0275f, 21f)
-        curveTo(16.6743f, 21f, 20.501f, 17.5f, 21f, 13f)
-        horizontalLineTo(16.4295f)
-        curveTo(15.9734f, 15.004f, 14.1757f, 16.5f, 12.0275f, 16.5f)
-        curveTo(9.53466f, 16.5f, 7.51377f, 14.4853f, 7.51377f, 12f)
-        curveTo(7.51377f, 9.51472f, 9.53466f, 7.5f, 12.0275f, 7.5f)
-        curveTo(14.1757f, 7.5f, 15.9734f, 8.99601f, 16.4295f, 11f)
-        horizontalLineTo(21f)
+            moveTo(21f, 11f)
+            curveTo(20.501f, 6.50005f, 16.6743f, 3f, 12.0275f, 3f)
+            curveTo(7.04177f, 3f, 3f, 7.02944f, 3f, 12f)
+            curveTo(3f, 16.9706f, 7.04177f, 21f, 12.0275f, 21f)
+            curveTo(16.6743f, 21f, 20.501f, 17.5f, 21f, 13f)
+            horizontalLineTo(16.4295f)
+            curveTo(15.9734f, 15.004f, 14.1757f, 16.5f, 12.0275f, 16.5f)
+            curveTo(9.53466f, 16.5f, 7.51377f, 14.4853f, 7.51377f, 12f)
+            curveTo(7.51377f, 9.51472f, 9.53466f, 7.5f, 12.0275f, 7.5f)
+            curveTo(14.1757f, 7.5f, 15.9734f, 8.99601f, 16.4295f, 11f)
+            horizontalLineTo(21f)
+            close()
         }
         }.build()
 

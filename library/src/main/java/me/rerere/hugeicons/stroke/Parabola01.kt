@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,33 +24,39 @@ val HugeIcons.Parabola01: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(21f, 3f)
-        curveTo(21f, 11.2843f, 16.9706f, 18f, 12f, 18f)
-        curveTo(7.02944f, 18f, 3f, 11.2843f, 3f, 3f)
+            moveTo(21f, 3f)
+            curveTo(21f, 11.2843f, 16.9706f, 18f, 12f, 18f)
+            curveTo(7.02944f, 18f, 3f, 11.2843f, 3f, 3f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(3f, 21f)
-        horizontalLineTo(4.05882f)
-        moveTo(15.7059f, 21f)
-        horizontalLineTo(16.7647f)
-        moveTo(19.9412f, 21f)
-        horizontalLineTo(21f)
-        moveTo(7.23529f, 21f)
-        horizontalLineTo(8.29412f)
-        moveTo(11.4706f, 21f)
-        horizontalLineTo(12.5294f)
+            moveTo(3f, 21f)
+            horizontalLineTo(4.05882f)
+            moveTo(15.7059f, 21f)
+            horizontalLineTo(16.7647f)
+            moveTo(19.9412f, 21f)
+            horizontalLineTo(21f)
+            moveTo(7.23529f, 21f)
+            horizontalLineTo(8.29412f)
+            moveTo(11.4706f, 21f)
+            horizontalLineTo(12.5294f)
         }
         }.build()
 

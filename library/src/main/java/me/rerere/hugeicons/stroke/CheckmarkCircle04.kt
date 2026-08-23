@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,29 +24,35 @@ val HugeIcons.CheckmarkCircle04: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(15f, 2.4578f)
-        curveTo(14.053f, 2.16035f, 13.0452f, 2f, 12f, 2f)
-        curveTo(6.47715f, 2f, 2f, 6.47715f, 2f, 12f)
-        curveTo(2f, 17.5228f, 6.47715f, 22f, 12f, 22f)
-        curveTo(17.5228f, 22f, 22f, 17.5228f, 22f, 12f)
-        curveTo(22f, 10.9548f, 21.8396f, 9.94704f, 21.5422f, 9f)
+            moveTo(15f, 2.4578f)
+            curveTo(14.053f, 2.16035f, 13.0452f, 2f, 12f, 2f)
+            curveTo(6.47715f, 2f, 2f, 6.47715f, 2f, 12f)
+            curveTo(2f, 17.5228f, 6.47715f, 22f, 12f, 22f)
+            curveTo(17.5228f, 22f, 22f, 17.5228f, 22f, 12f)
+            curveTo(22f, 10.9548f, 21.8396f, 9.94704f, 21.5422f, 9f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(8.5f, 9.5f)
-        lineTo(12f, 13f)
-        lineTo(21.0002f, 3f)
+            moveTo(8.5f, 9.5f)
+            lineTo(12f, 13f)
+            lineTo(21.0002f, 3f)
         }
         }.build()
 

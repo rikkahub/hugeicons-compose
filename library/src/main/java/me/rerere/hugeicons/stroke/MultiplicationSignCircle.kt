@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,19 +24,38 @@ val HugeIcons.MultiplicationSignCircle: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(15.5f, 8.5f)
-        lineTo(12f, 12f)
-        moveTo(12f, 12f)
-        lineTo(8.5f, 15.5f)
-        moveTo(12f, 12f)
-        lineTo(15.5f, 15.5f)
-        moveTo(12f, 12f)
-        lineTo(8.5f, 8.5f)
+            moveTo(15.5f, 8.5f)
+            lineTo(12f, 12f)
+            moveTo(12f, 12f)
+            lineTo(8.5f, 15.5f)
+            moveTo(12f, 12f)
+            lineTo(15.5f, 15.5f)
+            moveTo(12f, 12f)
+            lineTo(8.5f, 8.5f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Butt,
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(22f, 12f)
+            arcTo(10f, 10f, 0f, true, false, 2f, 12f)
+            arcTo(10f, 10f, 0f, true, false, 22f, 12f)
+            close()
         }
         }.build()
 

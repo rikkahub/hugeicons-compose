@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,36 +24,45 @@ val HugeIcons.ArrowRight03: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(20.0001f, 18f)
-        lineTo(20.0001f, 6f)
+            moveTo(20.0001f, 18f)
+            lineTo(20.0001f, 6f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(16.0001f, 11.9995f)
-        lineTo(4.00012f, 11.9995f)
+            moveTo(16.0001f, 11.9995f)
+            lineTo(4.00012f, 11.9995f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(12.0002f, 8f)
-        curveTo(12.0002f, 8f, 16.0001f, 10.946f, 16.0001f, 12f)
-        curveTo(16.0001f, 13.0541f, 12.0001f, 16f, 12.0001f, 16f)
+            moveTo(12.0002f, 8f)
+            curveTo(12.0002f, 8f, 16.0001f, 10.946f, 16.0001f, 12f)
+            curveTo(16.0001f, 13.0541f, 12.0001f, 16f, 12.0001f, 16f)
         }
         }.build()
 

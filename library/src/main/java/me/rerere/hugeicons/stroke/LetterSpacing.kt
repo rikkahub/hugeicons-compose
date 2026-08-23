@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,40 +24,49 @@ val HugeIcons.LetterSpacing: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(2f, 22f)
-        verticalLineTo(2f)
+            moveTo(2f, 22f)
+            verticalLineTo(2f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(22f, 22f)
-        verticalLineTo(2f)
+            moveTo(22f, 22f)
+            verticalLineTo(2f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(7f, 18f)
-        lineTo(10.6534f, 7.48635f)
-        curveTo(10.9447f, 6.81279f, 11.4878f, 5.99657f, 11.9467f, 6.00001f)
-        curveTo(12.6263f, 6.00511f, 12.9827f, 6.70758f, 13.3774f, 7.48635f)
-        curveTo(13.7721f, 8.26513f, 17f, 18f, 17f, 18f)
-        moveTo(9.01312f, 12.9912f)
-        lineTo(14.8945f, 12.9293f)
+            moveTo(7f, 18f)
+            lineTo(10.6534f, 7.48635f)
+            curveTo(10.9447f, 6.81279f, 11.4878f, 5.99657f, 11.9467f, 6.00001f)
+            curveTo(12.6263f, 6.00511f, 12.9827f, 6.70758f, 13.3774f, 7.48635f)
+            curveTo(13.7721f, 8.26513f, 17f, 18f, 17f, 18f)
+            moveTo(9.01312f, 12.9912f)
+            lineTo(14.8945f, 12.9293f)
         }
         }.build()
 

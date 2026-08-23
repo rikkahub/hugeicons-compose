@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,27 +24,33 @@ val HugeIcons.Function: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(5f, 19f)
-        curveTo(5.26413f, 19.9564f, 5.79671f, 21f, 7.18729f, 21f)
-        curveTo(9.59365f, 21f, 10.1952f, 19f, 12f, 12f)
-        curveTo(13.8048f, 5f, 14.4064f, 3f, 16.8127f, 3f)
-        curveTo(18.2033f, 3f, 18.7359f, 4.04358f, 19f, 5f)
+            moveTo(5f, 19f)
+            curveTo(5.26413f, 19.9564f, 5.79671f, 21f, 7.18729f, 21f)
+            curveTo(9.59365f, 21f, 10.1952f, 19f, 12f, 12f)
+            curveTo(13.8048f, 5f, 14.4064f, 3f, 16.8127f, 3f)
+            curveTo(18.2033f, 3f, 18.7359f, 4.04358f, 19f, 5f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(9f, 10f)
-        horizontalLineTo(17f)
+            moveTo(9f, 10f)
+            horizontalLineTo(17f)
         }
         }.build()
 

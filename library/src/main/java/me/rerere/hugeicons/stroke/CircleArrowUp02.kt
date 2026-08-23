@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,30 +24,37 @@ val HugeIcons.CircleArrowUp02: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(22f, 12f)
-        curveTo(22f, 17.5228f, 17.5228f, 22f, 12f, 22f)
-        curveTo(6.47715f, 22f, 2f, 17.5228f, 2f, 12f)
-        curveTo(2f, 6.47715f, 6.47715f, 2f, 12f, 2f)
-        curveTo(17.5228f, 2f, 22f, 6.47715f, 22f, 12f)
+            moveTo(22f, 12f)
+            curveTo(22f, 17.5228f, 17.5228f, 22f, 12f, 22f)
+            curveTo(6.47715f, 22f, 2f, 17.5228f, 2f, 12f)
+            curveTo(2f, 6.47715f, 6.47715f, 2f, 12f, 2f)
+            curveTo(17.5228f, 2f, 22f, 6.47715f, 22f, 12f)
+            close()
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(12f, 9.00014f)
-        verticalLineTo(16.0002f)
-        moveTo(15.5f, 11.5f)
-        curveTo(15.5f, 11.5f, 12.9223f, 8.00001f, 12f, 8f)
-        curveTo(11.0777f, 7.99999f, 8.50003f, 11.5f, 8.50003f, 11.5f)
+            moveTo(12f, 9.00014f)
+            verticalLineTo(16.0002f)
+            moveTo(15.5f, 11.5f)
+            curveTo(15.5f, 11.5f, 12.9223f, 8.00001f, 12f, 8f)
+            curveTo(11.0777f, 7.99999f, 8.50003f, 11.5f, 8.50003f, 11.5f)
         }
         }.build()
 

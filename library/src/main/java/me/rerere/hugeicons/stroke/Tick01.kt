@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,14 +24,17 @@ val HugeIcons.Tick01: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(5f, 14.5f)
-        curveTo(5f, 14.5f, 6.5f, 14.5f, 8.5f, 18f)
-        curveTo(8.5f, 18f, 14.0588f, 8.83333f, 19f, 7f)
+            moveTo(5f, 14.5f)
+            curveTo(5f, 14.5f, 6.5f, 14.5f, 8.5f, 18f)
+            curveTo(8.5f, 18f, 14.0588f, 8.83333f, 19f, 7f)
         }
         }.build()
 

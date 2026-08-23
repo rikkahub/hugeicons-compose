@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,31 +24,37 @@ val HugeIcons.AlphabetKorean: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(5f, 6f)
-        horizontalLineTo(11.1554f)
-        curveTo(12.0231f, 6f, 12.4569f, 6f, 12.7534f, 6.31741f)
-        curveTo(13.0498f, 6.63483f, 13.0234f, 7.02125f, 12.9707f, 7.79408f)
-        curveTo(12.7255f, 11.3825f, 10.8793f, 17.0157f, 5f, 19f)
+            moveTo(5f, 6f)
+            horizontalLineTo(11.1554f)
+            curveTo(12.0231f, 6f, 12.4569f, 6f, 12.7534f, 6.31741f)
+            curveTo(13.0498f, 6.63483f, 13.0234f, 7.02125f, 12.9707f, 7.79408f)
+            curveTo(12.7255f, 11.3825f, 10.8793f, 17.0157f, 5f, 19f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(16f, 3f)
-        verticalLineTo(12f)
-        moveTo(16f, 21f)
-        verticalLineTo(12f)
-        moveTo(16f, 12f)
-        horizontalLineTo(19f)
+            moveTo(16f, 3f)
+            verticalLineTo(12f)
+            moveTo(16f, 21f)
+            verticalLineTo(12f)
+            moveTo(16f, 12f)
+            horizontalLineTo(19f)
         }
         }.build()
 

@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,48 +24,58 @@ val HugeIcons.GameController01: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(11f, 13f)
-        horizontalLineTo(13f)
+            moveTo(11f, 13f)
+            horizontalLineTo(13f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(12f, 9f)
-        verticalLineTo(3f)
+            moveTo(12f, 9f)
+            verticalLineTo(3f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
-            strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Butt,
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(20.1526f, 20.9174f)
-        curveTo(22.0143f, 20.3289f, 22.5597f, 16.7547f, 21.3708f, 12.9344f)
-        curveTo(20.1819f, 9.11398f, 17.709f, 6.49405f, 15.8474f, 7.08259f)
-        curveTo(14.6972f, 7.44619f, 14.6438f, 8.86174f, 13.6968f, 9.378f)
-        curveTo(13.473f, 9.5f, 13.1595f, 9.5f, 12.5324f, 9.5f)
-        horizontalLineTo(11.4676f)
-        curveTo(10.8405f, 9.5f, 10.527f, 9.5f, 10.3032f, 9.378f)
-        curveTo(9.35625f, 8.86174f, 9.30278f, 7.44619f, 8.15264f, 7.08259f)
-        curveTo(6.29102f, 6.49405f, 3.8181f, 9.11398f, 2.62922f, 12.9344f)
-        curveTo(1.44035f, 16.7547f, 1.98573f, 20.3289f, 3.84736f, 20.9174f)
-        curveTo(5.20631f, 21.347f, 6.891f, 20.067f, 8.16417f, 17.8583f)
-        curveTo(9.01333f, 16.3851f, 9.39787f, 16f, 11.1039f, 16f)
-        horizontalLineTo(12.8961f)
-        curveTo(14.6021f, 16f, 14.9867f, 16.3851f, 15.8358f, 17.8583f)
-        curveTo(17.109f, 20.067f, 18.7937f, 21.347f, 20.1526f, 20.9174f)
+            moveTo(20.1526f, 20.9174f)
+            curveTo(22.0143f, 20.3289f, 22.5597f, 16.7547f, 21.3708f, 12.9344f)
+            curveTo(20.1819f, 9.11398f, 17.709f, 6.49405f, 15.8474f, 7.08259f)
+            curveTo(14.6972f, 7.44619f, 14.6438f, 8.86174f, 13.6968f, 9.378f)
+            curveTo(13.473f, 9.5f, 13.1595f, 9.5f, 12.5324f, 9.5f)
+            horizontalLineTo(11.4676f)
+            curveTo(10.8405f, 9.5f, 10.527f, 9.5f, 10.3032f, 9.378f)
+            curveTo(9.35625f, 8.86174f, 9.30278f, 7.44619f, 8.15264f, 7.08259f)
+            curveTo(6.29102f, 6.49405f, 3.8181f, 9.11398f, 2.62922f, 12.9344f)
+            curveTo(1.44035f, 16.7547f, 1.98573f, 20.3289f, 3.84736f, 20.9174f)
+            curveTo(5.20631f, 21.347f, 6.891f, 20.067f, 8.16417f, 17.8583f)
+            curveTo(9.01333f, 16.3851f, 9.39787f, 16f, 11.1039f, 16f)
+            horizontalLineTo(12.8961f)
+            curveTo(14.6021f, 16f, 14.9867f, 16.3851f, 15.8358f, 17.8583f)
+            curveTo(17.109f, 20.067f, 18.7937f, 21.347f, 20.1526f, 20.9174f)
+            close()
         }
         }.build()
 

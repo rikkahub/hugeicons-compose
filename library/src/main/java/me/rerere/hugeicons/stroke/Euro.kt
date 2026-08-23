@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,39 +24,48 @@ val HugeIcons.Euro: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(5f, 10f)
-        horizontalLineTo(13f)
+            moveTo(5f, 10f)
+            horizontalLineTo(13f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(5f, 14f)
-        horizontalLineTo(13f)
+            moveTo(5f, 14f)
+            horizontalLineTo(13f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(19f, 17.6076f)
-        curveTo(17.8693f, 19.6404f, 15.812f, 21f, 13.4615f, 21f)
-        curveTo(9.89293f, 21f, 7f, 17.866f, 7f, 14f)
-        verticalLineTo(10f)
-        curveTo(7f, 6.13401f, 9.89293f, 3f, 13.4615f, 3f)
-        curveTo(15.812f, 3f, 17.8693f, 4.35958f, 19f, 6.39241f)
+            moveTo(19f, 17.6076f)
+            curveTo(17.8693f, 19.6404f, 15.812f, 21f, 13.4615f, 21f)
+            curveTo(9.89293f, 21f, 7f, 17.866f, 7f, 14f)
+            verticalLineTo(10f)
+            curveTo(7f, 6.13401f, 9.89293f, 3f, 13.4615f, 3f)
+            curveTo(15.812f, 3f, 17.8693f, 4.35958f, 19f, 6.39241f)
         }
         }.build()
 

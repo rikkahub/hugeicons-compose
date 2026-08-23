@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,23 +24,26 @@ val HugeIcons.NewTwitter: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(3f, 21f)
-        lineTo(10.5484f, 13.4516f)
-        moveTo(21f, 3f)
-        lineTo(13.4516f, 10.5484f)
-        moveTo(13.4516f, 10.5484f)
-        lineTo(8f, 3f)
-        horizontalLineTo(3f)
-        lineTo(10.5484f, 13.4516f)
-        moveTo(13.4516f, 10.5484f)
-        lineTo(21f, 21f)
-        horizontalLineTo(16f)
-        lineTo(10.5484f, 13.4516f)
+            moveTo(3f, 21f)
+            lineTo(10.5484f, 13.4516f)
+            moveTo(21f, 3f)
+            lineTo(13.4516f, 10.5484f)
+            moveTo(13.4516f, 10.5484f)
+            lineTo(8f, 3f)
+            horizontalLineTo(3f)
+            lineTo(10.5484f, 13.4516f)
+            moveTo(13.4516f, 10.5484f)
+            lineTo(21f, 21f)
+            horizontalLineTo(16f)
+            lineTo(10.5484f, 13.4516f)
         }
         }.build()
 

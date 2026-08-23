@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,17 +24,36 @@ val HugeIcons.ApproximatelyEqualCircle: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(7f, 9.28466f)
-        curveTo(8.66667f, 7.2854f, 10.3333f, 7.87052f, 12f, 9.33333f)
-        curveTo(13.6667f, 10.7961f, 15.3333f, 11.3813f, 17f, 9.382f)
-        moveTo(7f, 14.618f)
-        curveTo(8.66667f, 12.6187f, 10.3333f, 13.2039f, 12f, 14.6667f)
-        curveTo(13.6667f, 16.1295f, 15.3333f, 16.7146f, 17f, 14.7153f)
+            moveTo(7f, 9.28466f)
+            curveTo(8.66667f, 7.2854f, 10.3333f, 7.87052f, 12f, 9.33333f)
+            curveTo(13.6667f, 10.7961f, 15.3333f, 11.3813f, 17f, 9.382f)
+            moveTo(7f, 14.618f)
+            curveTo(8.66667f, 12.6187f, 10.3333f, 13.2039f, 12f, 14.6667f)
+            curveTo(13.6667f, 16.1295f, 15.3333f, 16.7146f, 17f, 14.7153f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Butt,
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(22f, 12f)
+            arcTo(10f, 10f, 0f, true, false, 2f, 12f)
+            arcTo(10f, 10f, 0f, true, false, 22f, 12f)
+            close()
         }
         }.build()
 

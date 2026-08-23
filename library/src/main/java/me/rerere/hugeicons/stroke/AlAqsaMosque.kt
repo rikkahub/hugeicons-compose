@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,93 +24,133 @@ val HugeIcons.AlAqsaMosque: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(14f, 22f)
-        verticalLineTo(18f)
-        curveTo(14f, 16.8954f, 13.1046f, 16f, 12f, 16f)
-        curveTo(10.8954f, 16f, 10f, 16.8954f, 10f, 18f)
-        verticalLineTo(22f)
+            moveTo(6f, 12f)
+            horizontalLineTo(18f)
+            verticalLineTo(22f)
+            horizontalLineTo(6f)
+            close()
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(18f, 12f)
-        lineTo(20.7022f, 13.0133f)
-        curveTo(21.7801f, 13.4175f, 22f, 13.7348f, 22f, 14.886f)
-        verticalLineTo(22f)
-        horizontalLineTo(18f)
-        verticalLineTo(12f)
+            moveTo(14f, 22f)
+            verticalLineTo(18f)
+            curveTo(14f, 16.8954f, 13.1046f, 16f, 12f, 16f)
+            curveTo(10.8954f, 16f, 10f, 16.8954f, 10f, 18f)
+            verticalLineTo(22f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(2f, 14.886f)
-        curveTo(2f, 13.7348f, 2.21988f, 13.4175f, 3.29775f, 13.0133f)
-        lineTo(6f, 12f)
-        verticalLineTo(22f)
-        horizontalLineTo(2f)
-        verticalLineTo(14.886f)
+            moveTo(18f, 12f)
+            lineTo(20.7022f, 13.0133f)
+            curveTo(21.7801f, 13.4175f, 22f, 13.7348f, 22f, 14.886f)
+            verticalLineTo(22f)
+            horizontalLineTo(18f)
+            verticalLineTo(12f)
+            close()
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(16.208f, 9.5f)
-        curveTo(17.3133f, 6.36054f, 15.1439f, 3f, 12f, 3f)
-        curveTo(8.85611f, 3f, 6.68666f, 6.36054f, 7.79198f, 9.5f)
+            moveTo(2f, 14.886f)
+            curveTo(2f, 13.7348f, 2.21988f, 13.4175f, 3.29775f, 13.0133f)
+            lineTo(6f, 12f)
+            verticalLineTo(22f)
+            horizontalLineTo(2f)
+            verticalLineTo(14.886f)
+            close()
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(12f, 3f)
-        verticalLineTo(2f)
+            moveTo(16.208f, 9.5f)
+            curveTo(17.3133f, 6.36054f, 15.1439f, 3f, 12f, 3f)
+            curveTo(8.85611f, 3f, 6.68666f, 6.36054f, 7.79198f, 9.5f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(8f, 12f)
-        verticalLineTo(10f)
-        moveTo(16f, 12f)
-        verticalLineTo(10f)
+            moveTo(12f, 3f)
+            verticalLineTo(2f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(7f, 9.5f)
-        horizontalLineTo(17f)
+            moveTo(8f, 12f)
+            verticalLineTo(10f)
+            moveTo(16f, 12f)
+            verticalLineTo(10f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(7f, 9.5f)
+            horizontalLineTo(17f)
         }
         }.build()
 

@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,45 +24,51 @@ val HugeIcons.Notion02: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(2.5f, 3.5f)
-        lineTo(16.5f, 2.5f)
-        lineTo(21.5f, 5.5f)
-        moveTo(2.5f, 3.5f)
-        lineTo(6.5f, 6.5f)
-        moveTo(2.5f, 3.5f)
-        verticalLineTo(16.5f)
-        lineTo(6.5f, 21.5f)
-        moveTo(21.5f, 5.5f)
-        lineTo(6.5f, 6.5f)
-        moveTo(21.5f, 5.5f)
-        verticalLineTo(19.5f)
-        lineTo(6.5f, 21.5f)
-        moveTo(6.5f, 6.5f)
-        verticalLineTo(21.5f)
+            moveTo(2.5f, 3.5f)
+            lineTo(16.5f, 2.5f)
+            lineTo(21.5f, 5.5f)
+            moveTo(2.5f, 3.5f)
+            lineTo(6.5f, 6.5f)
+            moveTo(2.5f, 3.5f)
+            verticalLineTo(16.5f)
+            lineTo(6.5f, 21.5f)
+            moveTo(21.5f, 5.5f)
+            lineTo(6.5f, 6.5f)
+            moveTo(21.5f, 5.5f)
+            verticalLineTo(19.5f)
+            lineTo(6.5f, 21.5f)
+            moveTo(6.5f, 6.5f)
+            verticalLineTo(21.5f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(12.4704f, 17.704f)
-        lineTo(9.5f, 18.1f)
-        moveTo(18.5f, 8.70001f)
-        lineTo(16.2654f, 8.84899f)
-        moveTo(17.5f, 8.76668f)
-        verticalLineTo(17f)
-        lineTo(11.7148f, 9.15236f)
-        lineTo(9.5f, 9.30001f)
-        moveTo(11f, 9.20001f)
-        verticalLineTo(17.7f)
+            moveTo(12.4704f, 17.704f)
+            lineTo(9.5f, 18.1f)
+            moveTo(18.5f, 8.70001f)
+            lineTo(16.2654f, 8.84899f)
+            moveTo(17.5f, 8.76668f)
+            verticalLineTo(17f)
+            lineTo(11.7148f, 9.15236f)
+            lineTo(9.5f, 9.30001f)
+            moveTo(11f, 9.20001f)
+            verticalLineTo(17.7f)
         }
         }.build()
 

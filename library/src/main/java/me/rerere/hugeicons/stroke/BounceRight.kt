@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,16 +24,35 @@ val HugeIcons.BounceRight: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(15f, 10f)
-        curveTo(12.8847f, 13.01f, 11.8945f, 17.1528f, 11.248f, 20.086f)
-        curveTo(11.1165f, 20.6824f, 11.0508f, 20.9806f, 10.9128f, 20.9991f)
-        curveTo(10.7748f, 21.0177f, 10.6338f, 20.7339f, 10.3518f, 20.1662f)
-        curveTo(9.00614f, 17.4579f, 6.21729f, 15.062f, 4f, 17.1079f)
+            moveTo(15f, 10f)
+            curveTo(12.8847f, 13.01f, 11.8945f, 17.1528f, 11.248f, 20.086f)
+            curveTo(11.1165f, 20.6824f, 11.0508f, 20.9806f, 10.9128f, 20.9991f)
+            curveTo(10.7748f, 21.0177f, 10.6338f, 20.7339f, 10.3518f, 20.1662f)
+            curveTo(9.00614f, 17.4579f, 6.21729f, 15.062f, 4f, 17.1079f)
+        }
+
+        path(
+            fill = null,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
+            strokeLineCap = StrokeCap.Round,
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
+        ) {
+            moveTo(20f, 5f)
+            arcTo(2f, 2f, 0f, true, false, 16f, 5f)
+            arcTo(2f, 2f, 0f, true, false, 20f, 5f)
+            close()
         }
         }.build()
 

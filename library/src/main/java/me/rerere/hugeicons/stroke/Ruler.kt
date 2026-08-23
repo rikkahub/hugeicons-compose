@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,41 +24,48 @@ val HugeIcons.Ruler: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Miter,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(17.5f, 10.5f)
-        lineTo(19.5f, 12.5f)
-        moveTo(14f, 14f)
-        lineTo(16f, 16f)
-        moveTo(10.5f, 17.5f)
-        lineTo(12.5f, 19.5f)
+            moveTo(17.5f, 10.5f)
+            lineTo(19.5f, 12.5f)
+            moveTo(14f, 14f)
+            lineTo(16f, 16f)
+            moveTo(10.5f, 17.5f)
+            lineTo(12.5f, 19.5f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(10.5355f, 4.67767f)
-        curveTo(11.9002f, 3.31296f, 12.5826f, 2.6306f, 13.3438f, 2.3153f)
-        curveTo(14.3587f, 1.8949f, 15.4991f, 1.8949f, 16.5141f, 2.3153f)
-        curveTo(17.2753f, 2.6306f, 17.9576f, 3.31296f, 19.3223f, 4.67767f)
-        curveTo(20.687f, 6.04238f, 21.3694f, 6.72474f, 21.6847f, 7.48594f)
-        curveTo(22.1051f, 8.50088f, 22.1051f, 9.64126f, 21.6847f, 10.6562f)
-        curveTo(21.3694f, 11.4174f, 20.687f, 12.0998f, 19.3223f, 13.4645f)
-        lineTo(13.4645f, 19.3223f)
-        curveTo(12.0998f, 20.687f, 11.4174f, 21.3694f, 10.6562f, 21.6847f)
-        curveTo(9.64126f, 22.1051f, 8.50088f, 22.1051f, 7.48594f, 21.6847f)
-        curveTo(6.72474f, 21.3694f, 6.04238f, 20.687f, 4.67767f, 19.3223f)
-        curveTo(3.31296f, 17.9576f, 2.6306f, 17.2753f, 2.3153f, 16.5141f)
-        curveTo(1.8949f, 15.4991f, 1.8949f, 14.3587f, 2.3153f, 13.3438f)
-        curveTo(2.6306f, 12.5826f, 3.31296f, 11.9002f, 4.67767f, 10.5355f)
-        lineTo(10.5355f, 4.67767f)
+            moveTo(10.5355f, 4.67767f)
+            curveTo(11.9002f, 3.31296f, 12.5826f, 2.6306f, 13.3438f, 2.3153f)
+            curveTo(14.3587f, 1.8949f, 15.4991f, 1.8949f, 16.5141f, 2.3153f)
+            curveTo(17.2753f, 2.6306f, 17.9576f, 3.31296f, 19.3223f, 4.67767f)
+            curveTo(20.687f, 6.04238f, 21.3694f, 6.72474f, 21.6847f, 7.48594f)
+            curveTo(22.1051f, 8.50088f, 22.1051f, 9.64126f, 21.6847f, 10.6562f)
+            curveTo(21.3694f, 11.4174f, 20.687f, 12.0998f, 19.3223f, 13.4645f)
+            lineTo(13.4645f, 19.3223f)
+            curveTo(12.0998f, 20.687f, 11.4174f, 21.3694f, 10.6562f, 21.6847f)
+            curveTo(9.64126f, 22.1051f, 8.50088f, 22.1051f, 7.48594f, 21.6847f)
+            curveTo(6.72474f, 21.3694f, 6.04238f, 20.687f, 4.67767f, 19.3223f)
+            curveTo(3.31296f, 17.9576f, 2.6306f, 17.2753f, 2.3153f, 16.5141f)
+            curveTo(1.8949f, 15.4991f, 1.8949f, 14.3587f, 2.3153f, 13.3438f)
+            curveTo(2.6306f, 12.5826f, 3.31296f, 11.9002f, 4.67767f, 10.5355f)
+            lineTo(10.5355f, 4.67767f)
+            close()
         }
         }.build()
 

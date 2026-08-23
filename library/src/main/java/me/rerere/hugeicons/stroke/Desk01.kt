@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,65 +24,80 @@ val HugeIcons.Desk01: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(22f, 4f)
-        horizontalLineTo(2f)
+            moveTo(22f, 4f)
+            horizontalLineTo(2f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(21f, 8f)
-        horizontalLineTo(3f)
+            moveTo(21f, 8f)
+            horizontalLineTo(3f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(21f, 12f)
-        horizontalLineTo(14f)
+            moveTo(21f, 12f)
+            horizontalLineTo(14f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(14f, 8f)
-        lineTo(14f, 18f)
-        curveTo(14f, 18.9428f, 14f, 19.4142f, 14.2929f, 19.7071f)
-        curveTo(14.5858f, 20f, 15.0572f, 20f, 16f, 20f)
-        horizontalLineTo(19f)
-        curveTo(19.9428f, 20f, 20.4142f, 20f, 20.7071f, 19.7071f)
-        curveTo(21f, 19.4142f, 21f, 18.9428f, 21f, 18f)
-        verticalLineTo(8f)
+            moveTo(14f, 8f)
+            lineTo(14f, 18f)
+            curveTo(14f, 18.9428f, 14f, 19.4142f, 14.2929f, 19.7071f)
+            curveTo(14.5858f, 20f, 15.0572f, 20f, 16f, 20f)
+            horizontalLineTo(19f)
+            curveTo(19.9428f, 20f, 20.4142f, 20f, 20.7071f, 19.7071f)
+            curveTo(21f, 19.4142f, 21f, 18.9428f, 21f, 18f)
+            verticalLineTo(8f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(3f, 4f)
-        verticalLineTo(20f)
-        moveTo(21f, 4f)
-        verticalLineTo(8f)
+            moveTo(3f, 4f)
+            verticalLineTo(20f)
+            moveTo(21f, 4f)
+            verticalLineTo(8f)
         }
         }.build()
 

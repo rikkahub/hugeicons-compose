@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,39 +24,42 @@ val HugeIcons.SignLanguageC: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(4f, 21f)
-        verticalLineTo(14.3936f)
-        curveTo(4f, 11.7663f, 4f, 10.4526f, 4.35874f, 9.30431f)
-        curveTo(4.86959f, 7.66915f, 6.67366f, 5.92189f, 8.07257f, 4.90417f)
-        curveTo(8.96802f, 4.25272f, 9.81367f, 3.99439f, 11.8656f, 3.29139f)
-        curveTo(12.193f, 3.17921f, 12.3568f, 3.12312f, 12.653f, 3.06783f)
-        curveTo(12.9492f, 3.01253f, 13.0208f, 3.00972f, 13.164f, 3.00409f)
-        curveTo(13.5303f, 2.98969f, 13.981f, 3.00996f, 14.4588f, 3.11939f)
-        curveTo(14.802f, 3.19799f, 15.1425f, 3.32672f, 15.8236f, 3.58417f)
-        lineTo(17.7348f, 4.36953f)
-        curveTo(18.4651f, 4.66967f, 18.8346f, 5.48739f, 18.5771f, 6.23385f)
-        curveTo(18.3041f, 7.02521f, 17.433f, 7.43653f, 16.6485f, 7.14453f)
-        moveTo(10.1089f, 8f)
-        curveTo(10.1089f, 8f, 12.7243f, 6.70713f, 13.7702f, 6.57906f)
-        curveTo(14.3505f, 6.508f, 15.0351f, 6.64817f, 15.7358f, 6.8626f)
-        lineTo(16.6485f, 7.14453f)
-        moveTo(12f, 21f)
-        curveTo(12.3639f, 19.5f, 14.1801f, 18.7963f, 14.1801f, 18.7963f)
-        curveTo(15f, 18.5f, 16.2035f, 17.9258f, 16.7268f, 17.5f)
-        lineTo(19.5607f, 15.6506f)
-        curveTo(20.1896f, 15.1388f, 19.8804f, 14.3849f, 19.3133f, 14.0088f)
-        curveTo(17.4785f, 12.7921f, 15.719f, 13.853f, 14.0259f, 14.6951f)
-        curveTo(12.5527f, 15.4278f, 10.6179f, 14.3622f, 10.6179f, 12.7238f)
-        curveTo(10.6179f, 10.4887f, 14.1046f, 9.45724f, 15.8849f, 10.1656f)
-        lineTo(18.0793f, 10.8095f)
-        curveTo(18.8889f, 11.0471f, 19.7378f, 10.5779f, 19.9513f, 9.77491f)
-        curveTo(20.1441f, 9.04982f, 19.7492f, 8.29863f, 19.0358f, 8.03307f)
-        lineTo(16.6485f, 7.14453f)
+            moveTo(4f, 21f)
+            verticalLineTo(14.3936f)
+            curveTo(4f, 11.7663f, 4f, 10.4526f, 4.35874f, 9.30431f)
+            curveTo(4.86959f, 7.66915f, 6.67366f, 5.92189f, 8.07257f, 4.90417f)
+            curveTo(8.96802f, 4.25272f, 9.81367f, 3.99439f, 11.8656f, 3.29139f)
+            curveTo(12.193f, 3.17921f, 12.3568f, 3.12312f, 12.653f, 3.06783f)
+            curveTo(12.9492f, 3.01253f, 13.0208f, 3.00972f, 13.164f, 3.00409f)
+            curveTo(13.5303f, 2.98969f, 13.981f, 3.00996f, 14.4588f, 3.11939f)
+            curveTo(14.802f, 3.19799f, 15.1425f, 3.32672f, 15.8236f, 3.58417f)
+            lineTo(17.7348f, 4.36953f)
+            curveTo(18.4651f, 4.66967f, 18.8346f, 5.48739f, 18.5771f, 6.23385f)
+            curveTo(18.3041f, 7.02521f, 17.433f, 7.43653f, 16.6485f, 7.14453f)
+            moveTo(10.1089f, 8f)
+            curveTo(10.1089f, 8f, 12.7243f, 6.70713f, 13.7702f, 6.57906f)
+            curveTo(14.3505f, 6.508f, 15.0351f, 6.64817f, 15.7358f, 6.8626f)
+            lineTo(16.6485f, 7.14453f)
+            moveTo(12f, 21f)
+            curveTo(12.3639f, 19.5f, 14.1801f, 18.7963f, 14.1801f, 18.7963f)
+            curveTo(15f, 18.5f, 16.2035f, 17.9258f, 16.7268f, 17.5f)
+            lineTo(19.5607f, 15.6506f)
+            curveTo(20.1896f, 15.1388f, 19.8804f, 14.3849f, 19.3133f, 14.0088f)
+            curveTo(17.4785f, 12.7921f, 15.719f, 13.853f, 14.0259f, 14.6951f)
+            curveTo(12.5527f, 15.4278f, 10.6179f, 14.3622f, 10.6179f, 12.7238f)
+            curveTo(10.6179f, 10.4887f, 14.1046f, 9.45724f, 15.8849f, 10.1656f)
+            lineTo(18.0793f, 10.8095f)
+            curveTo(18.8889f, 11.0471f, 19.7378f, 10.5779f, 19.9513f, 9.77491f)
+            curveTo(20.1441f, 9.04982f, 19.7492f, 8.29863f, 19.0358f, 8.03307f)
+            lineTo(16.6485f, 7.14453f)
         }
         }.build()
 

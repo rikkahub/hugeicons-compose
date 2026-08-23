@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,28 +24,34 @@ val HugeIcons.TickDouble02: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(2.5f, 13.8333f)
-        lineTo(6f, 17.5f)
-        lineTo(7.02402f, 16.4272f)
-        moveTo(16.5f, 6.5f)
-        lineTo(10.437f, 12.8517f)
+            moveTo(2.5f, 13.8333f)
+            lineTo(6f, 17.5f)
+            lineTo(7.02402f, 16.4272f)
+            moveTo(16.5f, 6.5f)
+            lineTo(10.437f, 12.8517f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(7.5f, 13.8333f)
-        lineTo(11f, 17.5f)
-        lineTo(21.5f, 6.5f)
+            moveTo(7.5f, 13.8333f)
+            lineTo(11f, 17.5f)
+            lineTo(21.5f, 6.5f)
         }
         }.build()
 

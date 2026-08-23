@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,16 +24,19 @@ val HugeIcons.ArrowDownRight01: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(9f, 17.3497f)
-        curveTo(9f, 17.3497f, 15.9383f, 17.8924f, 16.9154f, 16.9154f)
-        curveTo(17.8924f, 15.9383f, 17.3496f, 9f, 17.3496f, 9f)
-        moveTo(16.5f, 16.5f)
-        lineTo(6.5f, 6.5f)
+            moveTo(9f, 17.3497f)
+            curveTo(9f, 17.3497f, 15.9383f, 17.8924f, 16.9154f, 16.9154f)
+            curveTo(17.8924f, 15.9383f, 17.3496f, 9f, 17.3496f, 9f)
+            moveTo(16.5f, 16.5f)
+            lineTo(6.5f, 6.5f)
         }
         }.build()
 

@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,28 +24,34 @@ val HugeIcons.ArrowTurnBackward: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(11f, 6f)
-        horizontalLineTo(15.5f)
-        curveTo(17.9853f, 6f, 20f, 8.01472f, 20f, 10.5f)
-        curveTo(20f, 12.9853f, 17.9853f, 15f, 15.5f, 15f)
-        horizontalLineTo(4f)
+            moveTo(11f, 6f)
+            horizontalLineTo(15.5f)
+            curveTo(17.9853f, 6f, 20f, 8.01472f, 20f, 10.5f)
+            curveTo(20f, 12.9853f, 17.9853f, 15f, 15.5f, 15f)
+            horizontalLineTo(4f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(6.99998f, 12f)
-        curveTo(6.99998f, 12f, 4.00001f, 14.2095f, 4f, 15f)
-        curveTo(3.99999f, 15.7906f, 7f, 18f, 7f, 18f)
+            moveTo(6.99998f, 12f)
+            curveTo(6.99998f, 12f, 4.00001f, 14.2095f, 4f, 15f)
+            curveTo(3.99999f, 15.7906f, 7f, 18f, 7f, 18f)
         }
         }.build()
 

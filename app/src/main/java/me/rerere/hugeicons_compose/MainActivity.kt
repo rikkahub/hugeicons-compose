@@ -16,6 +16,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import me.rerere.hugeicons.HugeIcons
 import me.rerere.hugeicons.stroke.CallMinus
 import me.rerere.hugeicons.stroke.Earth
+import me.rerere.hugeicons.stroke.Internet
 import me.rerere.hugeicons.stroke.Searching
 import me.rerere.hugeicons_compose.ui.theme.HugeiconscomposeTheme
 
@@ -41,7 +42,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
     ) {
-        Icon(HugeIcons.Earth, null)
+        Icon(HugeIcons.Internet, null)
         Icon(HugeIcons.CallMinus, null)
         Icon(HugeIcons.Searching, null)
     }

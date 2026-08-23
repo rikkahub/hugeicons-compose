@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,61 +24,77 @@ val HugeIcons.UserList: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(14f, 8.5f)
-        curveTo(14f, 5.73858f, 11.7614f, 3.5f, 9f, 3.5f)
-        curveTo(6.23858f, 3.5f, 4f, 5.73858f, 4f, 8.5f)
-        curveTo(4f, 11.2614f, 6.23858f, 13.5f, 9f, 13.5f)
-        curveTo(11.7614f, 13.5f, 14f, 11.2614f, 14f, 8.5f)
+            moveTo(18f, 21.0001f)
+            curveTo(17.713f, 17.269f, 14.7289f, 14.3151f, 10.995f, 14.0662f)
+            lineTo(10f, 13.9999f)
+            curveTo(9.64458f, 14.0096f, 9.31335f, 14.0225f, 9.00082f, 14.0378f)
+            curveTo(5.3f, 14.2192f, 2.28417f, 17.3057f, 2f, 21.0001f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(16f, 20.5f)
-        curveTo(16f, 16.634f, 12.866f, 13.5f, 9f, 13.5f)
-        curveTo(5.13401f, 13.5f, 2f, 16.634f, 2f, 20.5f)
+            moveTo(18f, 6.49988f)
+            horizontalLineTo(22f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(17f, 10f)
-        lineTo(22f, 10f)
+            moveTo(18f, 9.99988f)
+            horizontalLineTo(22f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(17f, 13f)
-        lineTo(22f, 13f)
+            moveTo(20f, 13.4999f)
+            horizontalLineTo(22f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(20f, 16f)
-        lineTo(22f, 16f)
+            moveTo(14f, 6.99988f)
+            arcTo(4f, 4f, 0f, true, false, 6f, 6.99988f)
+            arcTo(4f, 4f, 0f, true, false, 14f, 6.99988f)
+            close()
         }
         }.build()
 

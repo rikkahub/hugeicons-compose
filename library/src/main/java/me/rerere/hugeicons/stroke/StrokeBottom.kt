@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,30 +24,36 @@ val HugeIcons.StrokeBottom: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(5f, 17f)
-        verticalLineTo(9f)
-        curveTo(5f, 6.17157f, 5f, 4.75736f, 5.87868f, 3.87868f)
-        curveTo(6.75736f, 3f, 8.17157f, 3f, 11f, 3f)
-        horizontalLineTo(13f)
-        curveTo(15.8284f, 3f, 17.2426f, 3f, 18.1213f, 3.87868f)
-        curveTo(19f, 4.75736f, 19f, 6.17157f, 19f, 9f)
-        verticalLineTo(17f)
+            moveTo(5f, 17f)
+            verticalLineTo(9f)
+            curveTo(5f, 6.17157f, 5f, 4.75736f, 5.87868f, 3.87868f)
+            curveTo(6.75736f, 3f, 8.17157f, 3f, 11f, 3f)
+            horizontalLineTo(13f)
+            curveTo(15.8284f, 3f, 17.2426f, 3f, 18.1213f, 3.87868f)
+            curveTo(19f, 4.75736f, 19f, 6.17157f, 19f, 9f)
+            verticalLineTo(17f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(3f, 21f)
-        lineTo(21f, 21f)
+            moveTo(3f, 21f)
+            lineTo(21f, 21f)
         }
         }.build()
 

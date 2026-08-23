@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,21 +24,24 @@ val HugeIcons.Pulse02: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(2f, 12f)
-        horizontalLineTo(5f)
-        lineTo(6.5f, 8f)
-        lineTo(9f, 15f)
-        lineTo(10.5f, 12f)
-        horizontalLineTo(12.5f)
-        lineTo(14.5f, 7f)
-        lineTo(16.5f, 17f)
-        lineTo(19f, 12f)
-        horizontalLineTo(22f)
+            moveTo(2f, 12f)
+            horizontalLineTo(5f)
+            lineTo(6.5f, 8f)
+            lineTo(9f, 15f)
+            lineTo(10.5f, 12f)
+            horizontalLineTo(12.5f)
+            lineTo(14.5f, 7f)
+            lineTo(16.5f, 17f)
+            lineTo(19f, 12f)
+            horizontalLineTo(22f)
         }
         }.build()
 

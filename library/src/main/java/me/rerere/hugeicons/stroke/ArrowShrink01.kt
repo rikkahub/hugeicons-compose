@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,21 +24,24 @@ val HugeIcons.ArrowShrink01: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(6.5023f, 10.7365f)
-        curveTo(7.34671f, 10.7485f, 10.1432f, 11.3294f, 10.7361f, 10.7365f)
-        curveTo(11.329f, 10.1436f, 10.7481f, 7.34708f, 10.7361f, 6.50267f)
-        moveTo(13.2685f, 17.5027f)
-        curveTo(13.2565f, 16.6583f, 12.6756f, 13.8618f, 13.2685f, 13.2689f)
-        curveTo(13.8614f, 12.676f, 16.6579f, 13.2569f, 17.5023f, 13.2689f)
-        moveTo(20.9991f, 21.001f)
-        lineTo(13.6102f, 13.6188f)
-        moveTo(10.3691f, 10.3763f)
-        lineTo(2.99998f, 2.99902f)
+            moveTo(6.5023f, 10.7365f)
+            curveTo(7.34671f, 10.7485f, 10.1432f, 11.3294f, 10.7361f, 10.7365f)
+            curveTo(11.329f, 10.1436f, 10.7481f, 7.34708f, 10.7361f, 6.50267f)
+            moveTo(13.2685f, 17.5027f)
+            curveTo(13.2565f, 16.6583f, 12.6756f, 13.8618f, 13.2685f, 13.2689f)
+            curveTo(13.8614f, 12.676f, 16.6579f, 13.2569f, 17.5023f, 13.2689f)
+            moveTo(20.9991f, 21.001f)
+            lineTo(13.6102f, 13.6188f)
+            moveTo(10.3691f, 10.3763f)
+            lineTo(2.99998f, 2.99902f)
         }
         }.build()
 

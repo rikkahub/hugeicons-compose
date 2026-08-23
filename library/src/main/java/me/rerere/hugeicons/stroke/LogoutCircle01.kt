@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,30 +24,36 @@ val HugeIcons.LogoutCircle01: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(18.5f, 4.40041f)
-        curveTo(16.752f, 2.9039f, 14.4815f, 2f, 12f, 2f)
-        curveTo(6.47715f, 2f, 2f, 6.47715f, 2f, 12f)
-        curveTo(2f, 17.5228f, 6.47715f, 22f, 12f, 22f)
-        curveTo(14.4815f, 22f, 16.752f, 21.0961f, 18.5f, 19.5996f)
+            moveTo(18.5f, 4.40041f)
+            curveTo(16.752f, 2.9039f, 14.4815f, 2f, 12f, 2f)
+            curveTo(6.47715f, 2f, 2f, 6.47715f, 2f, 12f)
+            curveTo(2f, 17.5228f, 6.47715f, 22f, 12f, 22f)
+            curveTo(14.4815f, 22f, 16.752f, 21.0961f, 18.5f, 19.5996f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(18f, 8f)
-        curveTo(18f, 8f, 22f, 10.946f, 22f, 12f)
-        curveTo(22f, 13.0541f, 18f, 16f, 18f, 16f)
-        moveTo(21.5f, 12f)
-        horizontalLineTo(9f)
+            moveTo(18f, 8f)
+            curveTo(18f, 8f, 22f, 10.946f, 22f, 12f)
+            curveTo(22f, 13.0541f, 18f, 16f, 18f, 16f)
+            moveTo(21.5f, 12f)
+            horizontalLineTo(9f)
         }
         }.build()
 

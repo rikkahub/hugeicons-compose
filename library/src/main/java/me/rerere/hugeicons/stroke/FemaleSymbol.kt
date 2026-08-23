@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,20 +24,24 @@ val HugeIcons.FemaleSymbol: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(12f, 14f)
-        curveTo(15.3137f, 14f, 18f, 11.3137f, 18f, 8f)
-        curveTo(18f, 4.68629f, 15.3137f, 2f, 12f, 2f)
-        curveTo(8.68629f, 2f, 6f, 4.68629f, 6f, 8f)
-        curveTo(6f, 11.3137f, 8.68629f, 14f, 12f, 14f)
-        moveTo(12f, 14f)
-        verticalLineTo(22f)
-        moveTo(9f, 19f)
-        horizontalLineTo(15f)
+            moveTo(12f, 14f)
+            curveTo(15.3137f, 14f, 18f, 11.3137f, 18f, 8f)
+            curveTo(18f, 4.68629f, 15.3137f, 2f, 12f, 2f)
+            curveTo(8.68629f, 2f, 6f, 4.68629f, 6f, 8f)
+            curveTo(6f, 11.3137f, 8.68629f, 14f, 12f, 14f)
+            close()
+            moveTo(12f, 14f)
+            verticalLineTo(22f)
+            moveTo(9f, 19f)
+            horizontalLineTo(15f)
         }
         }.build()
 

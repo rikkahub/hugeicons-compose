@@ -1,6 +1,7 @@
 package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.graphics.StrokeJoin
@@ -23,69 +24,84 @@ val HugeIcons.SortingUp: ImageVector
         ).apply {
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(18f, 8.5f)
-        lineTo(5.9999f, 8.4999f)
+            moveTo(18f, 8.5f)
+            lineTo(5.9999f, 8.4999f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(21f, 12.5f)
-        lineTo(3f, 12.5f)
+            moveTo(21f, 12.5f)
+            lineTo(3f, 12.5f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(16f, 21.5f)
-        lineTo(16f, 15.5f)
-        moveTo(16f, 15.5f)
-        lineTo(18f, 17.5f)
-        moveTo(16f, 15.5f)
-        lineTo(14f, 17.5f)
+            moveTo(16f, 21.5f)
+            lineTo(16f, 15.5f)
+            moveTo(16f, 15.5f)
+            lineTo(18f, 17.5f)
+            moveTo(16f, 15.5f)
+            lineTo(14f, 17.5f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(12f, 8.5f)
-        lineTo(12f, 2.5f)
-        moveTo(12f, 2.5f)
-        lineTo(14f, 4.5f)
-        moveTo(12f, 2.5f)
-        lineTo(10f, 4.5f)
+            moveTo(12f, 8.5f)
+            lineTo(12f, 2.5f)
+            moveTo(12f, 2.5f)
+            lineTo(14f, 4.5f)
+            moveTo(12f, 2.5f)
+            lineTo(10f, 4.5f)
         }
 
         path(
             fill = null,
-            stroke = SolidColor(Color(0xFF000000)),
-            strokeLineWidth = 2f,
+            stroke = SolidColor(Color(0xFF141B34)),
+            fillAlpha = 1f,
+            strokeAlpha = 1f,
+            strokeLineWidth = 1.5f,
             strokeLineCap = StrokeCap.Round,
-            strokeLineJoin = StrokeJoin.Round
+            strokeLineJoin = StrokeJoin.Round,
+            pathFillType = PathFillType.NonZero
         ) {
-        moveTo(8f, 21.5f)
-        lineTo(8f, 15.5f)
-        moveTo(8f, 15.5f)
-        lineTo(10f, 17.5f)
-        moveTo(8f, 15.5f)
-        lineTo(6f, 17.5f)
+            moveTo(8f, 21.5f)
+            lineTo(8f, 15.5f)
+            moveTo(8f, 15.5f)
+            lineTo(10f, 17.5f)
+            moveTo(8f, 15.5f)
+            lineTo(6f, 17.5f)
         }
         }.build()
 
