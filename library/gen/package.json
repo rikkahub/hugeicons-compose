@@ -2,7 +2,9 @@
   "name": "gen",
   "private": true,
   "scripts": {
-    "gen": "bun run src/main.ts"
+    "gen": "bun run src/main.ts",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@types/bun": "latest"

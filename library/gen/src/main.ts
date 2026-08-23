@@ -11,6 +11,32 @@ interface Icon {
     version: string;
 }
 
+interface CommandLineOptions {
+    concurrency: number;
+    iconNames: string[];
+}
+
+function parseCommandLine(args: string[]): CommandLineOptions {
+    let concurrency = 32;
+    const iconNames: string[] = [];
+
+    for (const argument of args) {
+        if (argument.startsWith('--concurrency=')) {
+            const value = Number(argument.slice('--concurrency='.length));
+            if (!Number.isInteger(value) || value < 1 || value > 128) {
+                throw new Error(`并发数必须是 1 到 128 之间的整数: ${argument}`);
+            }
+            concurrency = value;
+        } else if (argument.startsWith('--')) {
+            throw new Error(`未知参数: ${argument}`);
+        } else {
+            iconNames.push(argument);
+        }
+    }
+
+    return { concurrency, iconNames };
+}
+
 // 从 API 获取所有图标列表
 async function fetchAllIcons(): Promise<Icon[]> {
     console.log('正在从 API 获取图标列表...');
@@ -28,7 +54,7 @@ async function fetchAllIcons(): Promise<Icon[]> {
 
 // 从 CDN 下载 SVG
 async function downloadSvg(iconName: string): Promise<string> {
-    const url = `https://cdn.hugeicons.com/icons/${iconName}-stroke-rounded.svg?v=1.0.1`;
+    const url = `https://cdn.hugeicons.com/icons/${encodeURIComponent(iconName)}-stroke-rounded.svg?v=1.0.1`;
 
     const response = await fetch(url);
     if (!response.ok) {
@@ -40,24 +66,25 @@ async function downloadSvg(iconName: string): Promise<string> {
 }
 
 // 处理单个图标
-async function processIcon(icon: Icon, outputDir: string): Promise<void> {
+async function processIcon(iconName: string, outputDir: string): Promise<boolean> {
     try {
         // 1. 下载 SVG
-        const svgContent = await downloadSvg(icon.name);
+        const svgContent = await downloadSvg(iconName);
 
         // 2. 转换为 Compose
-        const composeCode = svgToCompose(icon.name, svgContent);
+        const composeCode = svgToCompose(iconName, svgContent);
 
         // 3. 生成文件名（kebab-case 转 PascalCase，确保不以数字开头）
-        const fileName = toValidKotlinName(icon.name);
+        const fileName = toValidKotlinName(iconName);
 
         // 4. 保存 Compose 文件
         const composePath = join(outputDir, `${fileName}.kt`);
         await writeFile(composePath, composeCode);
 
-        console.log(`✓ ${icon.name} -> ${fileName}.kt`);
+        return true;
     } catch (error) {
-        console.error(`✗ 处理 ${icon.name} 失败:`, error instanceof Error ? error.message : error);
+        console.error(`✗ 处理 ${iconName} 失败:`, error instanceof Error ? error.message : error);
+        return false;
     }
 }
 
@@ -66,8 +93,11 @@ async function main() {
     console.log('=== HugeIcons 批量转换工具 ===\n');
 
     try {
-        // 1. 获取所有图标
-        const icons = await fetchAllIcons();
+        // 1. 无参数时获取全部图标；传入名称时只生成指定图标。
+        const options = parseCommandLine(process.argv.slice(2));
+        const iconNames = options.iconNames.length > 0
+            ? options.iconNames
+            : (await fetchAllIcons()).map(icon => icon.name);
 
         // 2. 创建输出目录（相对于项目根目录）
         const projectRoot = resolve(__dirname, '../../../');
@@ -75,19 +105,36 @@ async function main() {
         await mkdir(outputDir, { recursive: true });
         console.log(`输出目录: ${outputDir}\n`);
 
-        // 3. 处理所有图标（并发处理，但限制并发数避免过载）
-        const batchSize = 10; // 每批处理 10 个图标
+        // 3. 使用持续工作的并发池，单个请求完成后立即处理下一个图标。
+        const workerCount = Math.min(options.concurrency, iconNames.length);
+        console.log(`并发数: ${workerCount}\n`);
+        let nextIndex = 0;
         let processed = 0;
+        let failures = 0;
 
-        for (let i = 0; i < icons.length; i += batchSize) {
-            const batch = icons.slice(i, i + batchSize);
-            await Promise.all(batch.map(icon => processIcon(icon, outputDir)));
-            processed += batch.length;
-            console.log(`进度: ${processed}/${icons.length}\n`);
+        const worker = async (): Promise<void> => {
+            while (true) {
+                const index = nextIndex;
+                nextIndex += 1;
+                const iconName = iconNames[index];
+                if (iconName === undefined) return;
+
+                const success = await processIcon(iconName, outputDir);
+                processed += 1;
+                if (!success) failures += 1;
+                const failureText = failures > 0 ? `，失败 ${failures}` : '';
+                console.log(`进度: ${processed}/${iconNames.length}${failureText} ${success ? '✓' : '✗'} ${iconName}`);
+            }
+        };
+
+        await Promise.all(Array.from({ length: workerCount }, () => worker()));
+
+        if (failures > 0) {
+            throw new Error(`${failures} 个图标转换失败`);
         }
 
         console.log('✓ 所有图标转换完成!');
-        console.log(`✓ 共处理 ${icons.length} 个图标`);
+        console.log(`✓ 共处理 ${iconNames.length} 个图标`);
         console.log(`✓ 输出目录: ${outputDir}`);
 
     } catch (error) {
