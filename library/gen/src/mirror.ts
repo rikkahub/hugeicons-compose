@@ -1,5 +1,5 @@
 // 在 RTL 布局中需要自动水平镜像的图标（Kotlin 名称）。
-// 只收录方向含义跟随阅读方向的图标：水平导航箭头、撤销/重做、回复/转发、发送、登录/登出、缩进。
+// 只收录方向含义跟随阅读方向的图标：水平导航箭头、撤销/重做、回复/转发、发送、登录/登出、缩进、排序、音量。
 // 以下类别有意不收录：媒体控制（快进、跳过）、手势与鼠标、斜向箭头、面板/侧边栏布局、
 // 旋转、以及已显式区分方向的图标（如 LeftToRightList*、RightToLeftList*）。
 export const autoMirroredIcons: ReadonlySet<string> = new Set([
@@ -106,4 +106,27 @@ export const autoMirroredIcons: ReadonlySet<string> = new Set([
     'TextIndentLess',
     'TextIndentMore',
     'TextWrap',
+
+    // 排序（箭头 + 文本行；含数字/字母或上下对称的排序图标不镜像）
+    'SortByDown02',
+    'SortByUp02',
+    'SortDescending',
+    'Sorting01',
+    'Sorting02',
+    'Sorting03',
+    'Sorting04',
+    'Sorting05',
+
+    // 音量（整个系列一起镜像，保证不同状态下喇叭朝向一致）
+    'Volume',
+    'Volume01',
+    'Volume02',
+    'VolumeHigh',
+    'VolumeLow',
+    'VolumeMinus',
+    'VolumeMute01',
+    'VolumeMute02',
+    'VolumeOff',
+    'VolumeUp',
+    'VolumeX',
 ]);

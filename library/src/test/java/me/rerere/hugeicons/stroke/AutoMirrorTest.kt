@@ -18,6 +18,9 @@ class AutoMirrorTest {
             HugeIcons.Send,
             HugeIcons.Logout01,
             HugeIcons.TextIndentMore,
+            HugeIcons.Sorting01,
+            HugeIcons.VolumeHigh,
+            HugeIcons.VolumeMute01,
         ).forEach { icon ->
             assertTrue(icon.name, icon.autoMirror)
         }
@@ -33,6 +36,11 @@ class AutoMirrorTest {
             HugeIcons.MouseLeftClick01,
             HugeIcons.LeftToRightListBullet,
             HugeIcons.RightToLeftListBullet,
+            HugeIcons.Sorting19,
+            HugeIcons.SortingAZ02,
+            HugeIcons.SortingDown,
+            HugeIcons.Menu03,
+            HugeIcons.Message01,
         ).forEach { icon ->
             assertFalse(icon.name, icon.autoMirror)
         }
