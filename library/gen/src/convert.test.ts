@@ -1,5 +1,8 @@
 import { describe, expect, test } from 'bun:test';
+import { existsSync } from 'fs';
+import { join } from 'path';
 import { convertPathDataToCompose, svgToCompose, toValidKotlinName } from './convert';
+import { autoMirroredIcons } from './mirror';
 import { parseXml } from './xml';
 
 const internetSvg = `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -80,6 +83,23 @@ describe('SVG conversion', () => {
             .toThrow('Unsupported SVG element: <use>');
         expect(() => svgToCompose('skew', '<svg viewBox="0 0 24 24"><path transform="skewX(10)" d="M0 0L1 1"/></svg>'))
             .toThrow('Unsupported SVG transform: skewx');
+    });
+});
+
+describe('RTL auto mirroring', () => {
+    test('marks listed directional icons as auto-mirrored', () => {
+        const code = svgToCompose('arrow-left-01', internetSvg);
+        expect(code).toContain('viewportHeight = 24f,\n            autoMirror = true\n        ).apply {');
+    });
+
+    test('leaves other icons unmirrored', () => {
+        expect(svgToCompose('internet', internetSvg)).not.toContain('autoMirror');
+    });
+
+    test('only lists icons that exist in the generated sources', () => {
+        const strokeDir = join(import.meta.dir, '../../src/main/java/me/rerere/hugeicons/stroke');
+        const missing = [...autoMirroredIcons].filter(name => !existsSync(join(strokeDir, `${name}.kt`)));
+        expect(missing).toEqual([]);
     });
 });
 

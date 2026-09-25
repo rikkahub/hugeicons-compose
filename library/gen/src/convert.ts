@@ -1,3 +1,4 @@
+import { autoMirroredIcons } from './mirror';
 import { convertPathDataToCompose, parseSvgNumberList } from './path';
 import { parseXml, type XmlElement } from './xml';
 
@@ -370,6 +371,7 @@ export function svgToCompose(iconName: string, svgContent: string): string {
     if (!vectorContent.trim()) throw new Error(`SVG ${iconName} contains no visible supported elements`);
 
     const groupImport = context.usesGroup ? '\nimport androidx.compose.ui.graphics.vector.group' : '';
+    const autoMirror = autoMirroredIcons.has(composeName) ? ',\n            autoMirror = true' : '';
     return `package me.rerere.hugeicons.stroke
 
 import androidx.compose.ui.graphics.Color
@@ -392,7 +394,7 @@ val HugeIcons.${composeName}: ImageVector
             defaultWidth = ${number(width)}.dp,
             defaultHeight = ${number(height)}.dp,
             viewportWidth = ${number(width)}f,
-            viewportHeight = ${number(height)}f
+            viewportHeight = ${number(height)}f${autoMirror}
         ).apply {
 ${vectorContent}
         }.build()
